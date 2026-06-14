@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>블루아카이브 스킬·스킬작 정리 (한국 서버)</title>
+<style>
+  /* 경기천년제목체 (경기도 무료 서체) */
+  @font-face{font-family:'Gyeonggi'; src:url('fonts/Title_Medium.woff') format('woff'); font-weight:400; font-display:swap}
+  @font-face{font-family:'Gyeonggi'; src:url('fonts/Title_Bold.woff') format('woff'); font-weight:700; font-display:swap}
+  @font-face{font-family:'Gyeonggi'; src:url('fonts/Title_Light.woff') format('woff'); font-weight:300; font-display:swap}
+  :root{
+    --bg:#0e1726; --panel:#16233a; --panel2:#1d2f4d; --line:#28406a;
+    --txt:#e8eef7; --sub:#9fb3d1; --accent:#4ea6ff; --accent2:#7ed0ff;
+    --good:#41d18b; --gold:#ffc85a;
+    --explode:#d94b4b; --pierce:#d99a3a; --mystic:#4a7fd9; --sonic:#9b59d9;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; font-family:'Gyeonggi',"Malgun Gothic",system-ui,sans-serif; font-weight:400;
+    color:var(--txt); min-height:100vh; line-height:1.6; background:#0b1320;
+  }
+  /* 블루아카이브 컨셉 배경 (이미지 + 블루 글로우 오버레이) */
+  body::before{
+    content:""; position:fixed; inset:0; z-index:-2;
+    background:url('https://schaledb.com/images/background/BG_Abydos_Collection.jpg') center/cover no-repeat fixed;
+    opacity:.42;
+  }
+  body::after{
+    content:""; position:fixed; inset:0; z-index:-1; pointer-events:none;
+    background:
+      radial-gradient(70% 55% at 82% 0%, rgba(78,166,255,.18), transparent 60%),
+      radial-gradient(60% 50% at 0% 100%, rgba(126,208,255,.10), transparent 60%),
+      linear-gradient(160deg, rgba(11,19,32,.58), rgba(14,23,38,.70) 45%, rgba(16,29,51,.64));
+  }
+  header{
+    position:relative; text-align:center; padding:30px 16px 16px; border-bottom:1px solid var(--line);
+    background:radial-gradient(80% 120% at 50% 0%, rgba(78,166,255,.18), transparent 70%);
+  }
+  header h1{font-weight:700}
+  header h1{margin:0; font-size:clamp(20px,4vw,30px); letter-spacing:-.5px}
+  header h1 .dot{color:var(--accent)}
+  header p{margin:7px 0 0; color:var(--sub); font-size:13.5px}
+
+  .wrap{max-width:1180px; margin:0 auto; padding:16px 16px 80px}
+
+  .controls{position:sticky; top:0; z-index:20; padding:12px 0 10px; background:transparent;}
+  .search{display:flex; align-items:center; gap:10px; background:var(--panel);
+    border:1px solid var(--line); border-radius:14px; padding:11px 16px;
+    box-shadow:0 6px 20px rgba(0,0,0,.25);}
+  .search input{flex:1; background:transparent; border:0; outline:none; color:var(--txt); font-size:16px;}
+  .search input::placeholder{color:#6f86a8}
+  .clear{cursor:pointer; color:var(--sub); border:0; background:transparent; font-size:18px; display:none}
+
+  .filters{display:flex; flex-wrap:wrap; gap:8px; margin-top:10px; align-items:center}
+  .chip{cursor:pointer; user-select:none; font-size:13px; padding:6px 12px; border-radius:999px;
+    border:1px solid var(--line); background:var(--panel); color:var(--sub); transition:.15s;}
+  .chip:hover{border-color:var(--accent)}
+  .chip.on{background:var(--accent); color:#06131f; border-color:var(--accent); font-weight:700}
+  .sep{width:1px; height:22px; background:var(--line); margin:0 2px}
+  select{background:var(--panel); color:var(--txt); border:1px solid var(--line);
+    border-radius:999px; padding:6px 12px; font-size:13px; cursor:pointer; outline:none}
+  .count{margin:10px 2px 0; font-size:13px; color:var(--sub)}
+
+  .grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(330px,1fr)); gap:16px; margin-top:12px}
+  .card{background:var(--panel); border:1px solid var(--line); border-radius:16px; overflow:hidden;
+    display:flex; flex-direction:column; box-shadow:0 8px 24px rgba(0,0,0,.22);}
+  .card-head{display:flex; gap:13px; align-items:flex-start; padding:14px;
+    background:linear-gradient(135deg,var(--panel2),var(--panel)); border-bottom:1px solid var(--line)}
+  .thumb{width:88px; height:88px; flex:none; border-radius:13px; overflow:hidden;
+    background:var(--panel2); border:1px solid var(--line)}
+  .thumb img{width:100%; height:100%; object-fit:cover; object-position:center top; display:block}
+  .head-info{flex:1; min-width:0; display:flex; gap:11px; align-items:center}
+  .name-col{flex:none; max-width:46%}
+  .head-info .star{font-size:12px; color:#ffd86b; letter-spacing:1px}
+  .head-info .nm{font-size:19px; font-weight:800; letter-spacing:-.3px; line-height:1.2; word-break:keep-all}
+  .head-info .sc{font-size:12px; color:var(--accent2); margin-top:1px}
+
+  .tags{display:flex; flex-wrap:wrap; gap:5px; flex:1; align-content:center}
+  .tag{font-size:11px; padding:3px 9px; border-radius:999px; background:var(--panel2); border:1px solid var(--line); color:var(--sub)}
+  .tag.atk{color:#fff; border:0; font-weight:700}
+  .tag.explosion{background:var(--explode)} .tag.pierce{background:var(--pierce)}
+  .tag.mystic{background:var(--mystic)} .tag.sonic{background:var(--sonic)}
+  .tag.role{color:var(--accent2); border-color:var(--accent)}
+
+  .body{padding:4px 14px 16px}
+  .sec{margin-top:13px}
+  .sec h3{margin:0 0 7px; font-size:12.5px; color:var(--accent2); letter-spacing:.3px}
+  .skill{display:flex; gap:9px; padding:7px 0; border-top:1px dashed var(--line)}
+  .skill:first-of-type{border-top:0}
+  .skill .label{flex:none; width:48px; font-size:10.5px; font-weight:800; color:var(--accent); padding-top:2px}
+  .skill .txt{flex:1; font-size:12.5px}
+  .skill .txt .sname{font-weight:700}
+  .skill .txt .cost{font-size:10px; color:#06131f; background:var(--accent2); border-radius:5px; padding:1px 5px; margin-left:5px; font-weight:700}
+  .skill .txt .sdesc{color:var(--sub); font-size:12px}
+  details.skills{margin-top:13px}
+  details.skills>summary{list-style:none; cursor:pointer; font-size:12.5px; color:var(--accent2);
+    letter-spacing:.3px; display:flex; align-items:center; gap:8px; user-select:none}
+  details.skills>summary::-webkit-details-marker{display:none}
+  details.skills>summary .fold{font-size:11px; color:var(--sub); font-weight:400}
+  details.skills>summary .fold::after{content:'펼치기 ▾'}
+  details.skills[open]>summary .fold::after{content:'접기 ▴'}
+  details.skills .skill:first-of-type{border-top:0; margin-top:6px}
+
+  .order{display:flex; flex-wrap:nowrap; gap:4px; align-items:center; overflow:hidden}
+  .step{font-size:11px; background:var(--panel2); border:1px solid var(--line); border-radius:7px;
+    padding:4px 7px; display:flex; gap:4px; align-items:center; white-space:nowrap; flex:none}
+  .step b{color:var(--accent2)}
+  .arrow{color:var(--sub); font-size:11px; flex:none}
+  .levels{display:flex; flex-wrap:wrap; gap:6px}
+  .lv{font-size:11.5px; background:var(--panel2); border:1px solid var(--line); border-radius:8px; padding:5px 9px}
+  .lv .k{color:var(--sub)}
+  .lv .v{font-weight:800; color:var(--accent2); margin-left:4px}
+  .lv.m{border-color:var(--good)}
+  .lv.m .v{color:var(--good)}
+  .note{margin-top:9px; font-size:12px; color:var(--sub); background:var(--panel2);
+    border-left:3px solid var(--accent); border-radius:0 8px 8px 0; padding:7px 11px}
+  .tip{margin-top:9px; font-size:12px; border-radius:8px; padding:8px 11px;
+    background:rgba(65,209,139,.09); border:1px solid rgba(65,209,139,.35); color:#c7efd9}
+  .tip.limited{background:rgba(255,200,90,.10); border-color:rgba(255,200,90,.45); color:#ffe2a6}
+  .tip b{color:inherit}
+  .tip ul{margin:5px 0 0; padding-left:17px}
+  .tip li{margin:2px 0}
+  .tip .rate{margin-top:4px; font-weight:700}
+  .tip .hearts{color:#ff6b81; letter-spacing:2px; font-size:14px; margin-left:3px}
+  .tag.limited{background:linear-gradient(135deg,#a87410,#7a5408); color:#ffe6a8; border:0; font-weight:700}
+
+  .empty{text-align:center; padding:60px 20px; color:var(--sub)}
+  .empty .big{font-size:42px; margin-bottom:8px}
+  footer{text-align:center; color:#5d738f; font-size:12px; padding:24px 16px 50px}
+  footer a{color:var(--accent)}
+
+  /* 픽업 팝업 */
+  .pkbtn{margin-top:13px; cursor:pointer; font-family:inherit; font-size:13px; font-weight:700;
+    color:#06131f; background:linear-gradient(135deg,var(--accent2),var(--accent)); border:0;
+    border-radius:999px; padding:9px 20px; box-shadow:0 4px 16px rgba(78,166,255,.4)}
+  .overlay{position:fixed; inset:0; z-index:100; background:rgba(6,12,22,.72); backdrop-filter:blur(4px);
+    display:flex; align-items:center; justify-content:center; padding:18px; animation:fade .18s ease}
+  @keyframes fade{from{opacity:0}to{opacity:1}}
+  .overlay.hidden{display:none}
+  .modal{width:min(560px,100%); max-height:86vh; display:flex; flex-direction:column; background:var(--panel);
+    border:1px solid var(--line); border-radius:18px; box-shadow:0 20px 60px rgba(0,0,0,.55); overflow:hidden}
+  .modal-head{display:flex; align-items:center; justify-content:space-between; padding:17px 20px 13px;
+    border-bottom:1px solid var(--line); background:linear-gradient(135deg,var(--panel2),var(--panel))}
+  .modal-head h2{margin:0; font-size:18px}
+  .modal-head .x{cursor:pointer; background:transparent; border:0; color:var(--sub); font-size:22px; line-height:1}
+  .modal-body{padding:16px 20px; overflow:auto}
+  .modal .sect{margin-bottom:16px}
+  .modal .sect:last-child{margin-bottom:0}
+  .modal .sect h3{margin:0 0 9px; font-size:14px; color:#ff8a98}
+  .modal .sect.rerun h3{color:var(--gold)}
+  .pk-grid{display:flex; flex-wrap:wrap; gap:10px}
+  .pk{display:flex; align-items:center; gap:9px; background:var(--panel2); border:1px solid var(--line);
+    border-radius:12px; padding:7px 13px 7px 7px; min-width:152px; cursor:pointer; transition:.13s}
+  .pk:hover{border-color:var(--accent); background:#24395e; transform:translateY(-1px)}
+  .pk img{width:46px; height:46px; border-radius:9px; object-fit:cover; object-position:center top; flex:none; background:var(--panel)}
+  .pk .pkname{font-weight:700; font-size:14px}
+  .pk .pktags{font-size:11px; color:var(--sub)}
+  .pk-empty{color:var(--sub); font-size:13px}
+  .edit-hint{font-size:11.5px; color:var(--sub); margin-top:12px; opacity:.85}
+  .modal-foot{display:flex; gap:10px; justify-content:flex-end; align-items:center; flex-wrap:wrap;
+    padding:13px 20px 16px; border-top:1px solid var(--line); background:var(--panel)}
+  .modal-foot .upd{margin-right:auto; font-size:12px; color:var(--sub)}
+  .btn{cursor:pointer; font-family:inherit; font-size:13px; border-radius:10px; padding:9px 16px; font-weight:700}
+  .btn.ghost{background:transparent; border:1px solid var(--line); color:var(--sub)}
+  .btn.primary{background:var(--accent); border:0; color:#06131f}
+</style>
+</head>
+<body>
+<header>
+  <h1>블루아카이브 스킬 <span class="dot">·</span> 스킬작 정리</h1>
+  <p>한국 서버 출시 전체 학생 · 스킬 / 스킬작 권장 순서 · 이미지 한눈에 보기</p>
+  <button class="pkbtn" id="pickupBtn">🎯 현재 픽업 · 복각 보기</button>
+</header>
+
+<div class="wrap">
+  <div class="controls">
+    <div class="search">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#9fb3d1" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      <input id="search" type="text" placeholder="학생 이름·학교 검색 (예: 시로코, 아비도스...)" autocomplete="off">
+      <button class="clear" id="clear">✕</button>
+    </div>
+    <div class="filters" id="filters"></div>
+    <div class="count" id="count"></div>
+  </div>
+
+  <div class="grid" id="grid"></div>
+  <div class="empty" id="empty" style="display:none">
+    <div class="big">🔍</div>
+    <div>검색 결과가 없어요. 다른 이름으로 찾아보세요.</div>
+  </div>
+</div>
+
+<footer>
+  데이터·이미지 출처: <a href="https://schaledb.com" target="_blank">SchaleDB</a> (한국 서버 기준) ·
+  스킬작 순서는 역할 기반 일반 권장값입니다 — 공략 따라 조정하세요.
+</footer>
+
+<div class="overlay hidden" id="overlay">
+  <div class="modal">
+    <div class="modal-head">
+      <h2>🎯 현재 픽업 · 복각 모집</h2>
+      <button class="x" id="mClose" aria-label="닫기">✕</button>
+    </div>
+    <div class="modal-body" id="mBody"></div>
+    <div class="modal-foot">
+      <span class="upd" id="mUpd"></span>
+      <button class="btn ghost" id="mHide">오늘 하루 다시 보지 않기</button>
+      <button class="btn primary" id="mCloseBtn">닫기</button>
+    </div>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script src="pickup.js"></script>
+<script>
+const ATK_LABELS = {explosion:"폭발", pierce:"관통", mystic:"신비", sonic:"진동"};
+const grid = document.getElementById('grid');
+const search = document.getElementById('search');
+const clearBtn = document.getElementById('clear');
+const filtersEl = document.getElementById('filters');
+const countEl = document.getElementById('count');
+const emptyEl = document.getElementById('empty');
+
+let activeAtk="all", activeRole="all", activeSchool="all";
+
+const schools = [...new Set(STUDENTS.map(s=>s.school))].sort();
+const roles = ["딜러","탱커","힐러","서포터","차량"].filter(r=>STUDENTS.some(s=>s.role===r));
+
+function buildFilters(){
+  const atks = [["all","전체"],["explosion","폭발"],["pierce","관통"],["mystic","신비"],["sonic","진동"]];
+  let html = atks.map(([v,l])=>`<span class="chip ${v==='all'?'on':''}" data-g="atk" data-v="${v}">${l}</span>`).join("");
+  html += `<span class="sep"></span>`;
+  html += `<span class="chip on" data-g="role" data-v="all">전체 역할</span>`;
+  html += roles.map(r=>`<span class="chip" data-g="role" data-v="${r}">${r}</span>`).join("");
+  html += `<span class="sep"></span>`;
+  html += `<select id="schoolSel"><option value="all">전체 학교</option>` +
+          schools.map(s=>`<option value="${s}">${s}</option>`).join("") + `</select>`;
+  filtersEl.innerHTML = html;
+  filtersEl.querySelectorAll('.chip').forEach(chip=>chip.addEventListener('click',()=>{
+    const g=chip.dataset.g, v=chip.dataset.v;
+    filtersEl.querySelectorAll(`.chip[data-g="${g}"]`).forEach(c=>c.classList.remove('on'));
+    chip.classList.add('on');
+    if(g==="atk") activeAtk=v; else activeRole=v;
+    render();
+  }));
+  document.getElementById('schoolSel').addEventListener('change',e=>{activeSchool=e.target.value; render();});
+}
+
+function skillRow(label, sk){
+  if(!sk||!sk.name) return "";
+  const cost = (sk.cost!=null) ? `<span class="cost">코스트 ${sk.cost}</span>` : "";
+  return `<div class="skill"><div class="label">${label}</div>
+    <div class="txt"><span class="sname">${sk.name}</span>${cost}<br>
+    <span class="sdesc">${sk.desc||""}</span></div></div>`;
+}
+function orderSteps(order){
+  if(!order||!order.length) return "";
+  return order.map((o,i)=>`<span class="step"><b>${i+1}</b> ${o}</span>${i<order.length-1?'<span class="arrow">→</span>':''}`).join("");
+}
+function levelBadges(rec){
+  if(!rec) return "";
+  const items=[["EX",rec.ex],["기본",rec.normal],["강화",rec.passive],["서브",rec.sub]];
+  return items.map(([k,v])=>`<span class="lv ${v==='M'?'m':''}"><span class="k">${k}</span><span class="v">${v==='M'?'M':v+'렙'}</span></span>`).join("");
+}
+function getTips(s){
+  let t = s.tips;
+  if(t==null) return null;
+  if(typeof t==='string') t=[t];
+  if(!Array.isArray(t)) return null;
+  t = t.filter(x=>x && String(x).trim());
+  return t.length ? t : null;
+}
+function tipBlock(s){
+  const ct = getTips(s);
+  const rate = s.rating ? `<div class="rate">추천도 <span class="hearts">${s.rating}</span></div>` : "";
+  if(rate || ct){
+    const body = ct ? `<ul>${ct.map(x=>`<li>${x}</li>`).join('')}</ul>` : "";
+    return `<div class="tip ${s.limited?'limited':''}">💡 <b>Tip</b>${rate}${body}</div>`;
+  }
+  if(s.tip) return `<div class="tip ${s.limited?'limited':''}">💡 <b>Tip.</b> ${s.tip}</div>`;
+  return "";
+}
+function card(s){
+  return `<div class="card">
+    <div class="card-head">
+      <div class="thumb">
+        <img src="${s.icon}" alt="${s.name}" loading="lazy"
+             onerror="this.onerror=null;this.src='${s.img}';">
+      </div>
+      <div class="head-info">
+        <div class="name-col">
+          <div class="star">${"★".repeat(s.rarity||0)}</div>
+          <div class="nm">${s.name}</div>
+          <div class="sc">${s.school||""}</div>
+        </div>
+        <div class="tags">
+          ${s.limited?`<span class="tag limited">⭐ 한정</span>`:""}
+          <span class="tag atk ${s.atk}">${s.atkLabel}</span>
+          <span class="tag role">${s.role}</span>
+          <span class="tag">${s.position}</span>
+          <span class="tag">${s.armor}</span>
+          <span class="tag">${s.squad}</span>
+        </div>
+      </div>
+    </div>
+    <div class="body">
+      ${tipBlock(s)}
+      ${s.order?`<div class="sec"><h3>🎯 권장 스킬작 순서</h3><div class="order">${orderSteps(s.order)}</div></div>`:""}
+      ${s.rec?`<div class="sec"><h3>🔢 권장 스킬 레벨</h3><div class="levels">${levelBadges(s.rec)}</div></div>`:""}
+      ${s.note?`<div class="note">📈 ${s.note}</div>`:""}
+      <details class="sec skills"><summary>⚔️ 스킬 설명 <span class="fold"></span></summary>
+        ${skillRow("EX", s.ex)}
+        ${skillRow("기본", s.normal)}
+        ${skillRow("강화", s.passive)}
+        ${skillRow("서브", s.sub)}
+      </details>
+    </div>
+  </div>`;
+}
+function render(){
+  const q=(search.value||"").trim().toLowerCase();
+  clearBtn.style.display=q?"block":"none";
+  const list=STUDENTS.filter(s=>{
+    const okQ=!q||s.name.toLowerCase().includes(q)||(s.school||"").toLowerCase().includes(q);
+    const okA=activeAtk==="all"||s.atk===activeAtk;
+    const okR=activeRole==="all"||s.role===activeRole;
+    const okS=activeSchool==="all"||s.school===activeSchool;
+    return okQ&&okA&&okR&&okS;
+  });
+  grid.innerHTML=list.map(card).join("");
+  emptyEl.style.display=list.length?"none":"block";
+  grid.style.display=list.length?"grid":"none";
+  countEl.textContent=`총 ${STUDENTS.length}명 중 ${list.length}명 표시`;
+}
+search.addEventListener('input',render);
+clearBtn.addEventListener('click',()=>{search.value="";render();search.focus();});
+buildFilters();
+render();
+
+/* ===== 픽업·복각 팝업 ===== */
+const overlay=document.getElementById('overlay');
+function pkItem(name){
+  const s=STUDENTS.find(x=>x.name===name);
+  if(!s) return `<div class="pk" data-name="${name}"><div class="pkname">${name}</div></div>`;
+  return `<div class="pk" data-name="${s.name}" title="${s.name} 검색"><img src="${s.icon}" loading="lazy" alt="${s.name}" onerror="this.onerror=null;this.src='${s.img}'">
+    <div><div class="pkname">${s.name}</div><div class="pktags">${s.atkLabel} · ${s.role}${s.limited?' · ⭐한정':''}</div></div></div>`;
+}
+function buildModal(){
+  if(typeof PICKUP==='undefined') return false;
+  const sect=(title,arr,cls)=>`<div class="sect ${cls}"><h3>${title}</h3><div class="pk-grid">${
+    (arr&&arr.length)?arr.map(pkItem).join(''):'<span class="pk-empty">현재 없음</span>'}</div></div>`;
+  document.getElementById('mBody').innerHTML =
+    sect('🔥 픽업 모집', PICKUP.pickup, 'pickup') +
+    sect('🔁 복각 모집', PICKUP.rerun, 'rerun');
+  document.getElementById('mUpd').textContent = PICKUP.updated ? '업데이트: '+PICKUP.updated : '';
+  return true;
+}
+function todayStr(){const d=new Date();return `${d.getFullYear()}-${d.getMonth()+1}-${d.getDate()}`;}
+function openModal(){overlay.classList.remove('hidden');}
+function closeModal(){overlay.classList.add('hidden');}
+function hideToday(){try{localStorage.setItem('ba_pickup_hide',todayStr());}catch(e){} closeModal();}
+function searchStudent(name){
+  search.value=name; activeAtk="all"; activeRole="all"; activeSchool="all";
+  buildFilters(); render();
+  closeModal();
+  window.scrollTo({top:0, behavior:'smooth'});
+}
+const hasModal=buildModal();
+document.getElementById('mBody').addEventListener('click',e=>{
+  const el=e.target.closest('.pk'); if(el&&el.dataset.name) searchStudent(el.dataset.name);
+});
+document.getElementById('mClose').onclick=closeModal;
+document.getElementById('mCloseBtn').onclick=closeModal;
+document.getElementById('mHide').onclick=hideToday;
+document.getElementById('pickupBtn').onclick=openModal;
+overlay.addEventListener('click',e=>{ if(e.target===overlay) closeModal(); });
+// 자동 표시 (오늘 '다시 보지 않기' 누른 날은 제외)
+let hideUntil=null; try{hideUntil=localStorage.getItem('ba_pickup_hide');}catch(e){}
+if(hasModal && hideUntil!==todayStr()) openModal();
+</script>
+</body>
+</html>
