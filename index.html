@@ -44,7 +44,7 @@
 
   .wrap{max-width:1180px; margin:0 auto; padding:16px 16px 80px}
 
-  .controls{position:sticky; top:0; z-index:20; padding:12px 0 10px; background:transparent;}
+  .controls{padding:12px 0 10px; background:transparent;}
   .search{display:flex; align-items:center; gap:10px; background:var(--panel);
     border:1px solid var(--line); border-radius:14px; padding:11px 16px;
     box-shadow:0 6px 20px rgba(0,0,0,.25);}
@@ -164,6 +164,17 @@
   .btn{cursor:pointer; font-family:inherit; font-size:13px; border-radius:10px; padding:9px 16px; font-weight:700}
   .btn.ghost{background:transparent; border:1px solid var(--line); color:var(--sub)}
   .btn.primary{background:var(--accent); border:0; color:#06131f}
+
+  /* 맨 위로 버튼 */
+  .toTop{position:fixed; right:18px; bottom:22px; z-index:50; border:0; cursor:pointer;
+    font-family:inherit; font-size:13px; font-weight:700; border-radius:999px; padding:11px 17px;
+    display:flex; align-items:center; gap:6px; color:#06131f;
+    background:linear-gradient(135deg,var(--accent2),var(--accent));
+    box-shadow:0 6px 20px rgba(78,166,255,.45);
+    opacity:0; visibility:hidden; transform:translateY(12px); transition:.2s ease}
+  .toTop.show{opacity:1; visibility:visible; transform:translateY(0)}
+  .toTop:hover{filter:brightness(1.08); transform:translateY(-2px)}
+  .toTop .ar{font-size:15px; line-height:1}
 </style>
 </head>
 <body>
@@ -177,7 +188,7 @@
   <div class="controls">
     <div class="search">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#9fb3d1" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
-      <input id="search" type="text" placeholder="학생 이름·학교 검색 (예: 시로코, 아비도스...)" autocomplete="off">
+      <input id="search" type="text" placeholder="학생 이름·학교·역할 검색 (예: 시로코, 아비도스, 탱커...)" autocomplete="off">
       <button class="clear" id="clear">✕</button>
     </div>
     <div class="filters" id="filters"></div>
@@ -195,6 +206,8 @@
   데이터·이미지 출처: <a href="https://schaledb.com" target="_blank">SchaleDB</a> (한국 서버 기준) ·
   스킬작 순서는 역할 기반 일반 권장값입니다 — 공략 따라 조정하세요.
 </footer>
+
+<button class="toTop" id="toTop" aria-label="맨 위로"><span class="ar">↑</span> 맨 위로</button>
 
 <div class="overlay hidden" id="overlay">
   <div class="modal">
@@ -322,7 +335,7 @@ function render(){
   const q=(search.value||"").trim().toLowerCase();
   clearBtn.style.display=q?"block":"none";
   const list=STUDENTS.filter(s=>{
-    const okQ=!q||s.name.toLowerCase().includes(q)||(s.school||"").toLowerCase().includes(q);
+    const okQ=!q||s.name.toLowerCase().includes(q)||(s.school||"").toLowerCase().includes(q)||(s.role||"").toLowerCase().includes(q);
     const okA=activeAtk==="all"||s.atk===activeAtk;
     const okR=activeRole==="all"||s.role===activeRole;
     const okS=activeSchool==="all"||s.school===activeSchool;
@@ -378,6 +391,13 @@ overlay.addEventListener('click',e=>{ if(e.target===overlay) closeModal(); });
 // 자동 표시 (오늘 '다시 보지 않기' 누른 날은 제외)
 let hideUntil=null; try{hideUntil=localStorage.getItem('ba_pickup_hide');}catch(e){}
 if(hasModal && hideUntil!==todayStr()) openModal();
+
+/* ===== 맨 위로 버튼 ===== */
+const toTopBtn=document.getElementById('toTop');
+function syncToTop(){ toTopBtn.classList.toggle('show', window.scrollY>300); }
+window.addEventListener('scroll', syncToTop, {passive:true});
+toTopBtn.addEventListener('click', ()=>window.scrollTo({top:0, behavior:'smooth'}));
+syncToTop();
 </script>
 </body>
 </html>

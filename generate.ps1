@@ -5,6 +5,14 @@ $json = $raw | ConvertFrom-Json
 $all = $json.PSObject.Properties.Name | ForEach-Object { $json.$_ }
 $released = $all | Where-Object { $_.IsReleased[0] -eq $true } | Sort-Object DefaultOrder
 
+# 같은 이름 학생 중복 제거 — 호시노(무장)은 탱커(10098)/딜러(10099) 두 ID로 제공되어 카드가 2개 뜸.
+# DefaultOrder가 앞서는 첫 항목(탱커)만 남긴다.
+$seenNames = @{}
+$released = $released | Where-Object {
+  $nm = (([string]$_.Name) -replace '[﻿​‌‍]','').Trim()
+  if($seenNames.ContainsKey($nm)){ $false } else { $seenNames[$nm] = $true; $true }
+}
+
 # ---- 라벨 맵 ----
 $SCHOOL = @{
   Abydos='아비도스'; Gehenna='게헨나'; Trinity='트리니티'; Millennium='밀레니엄';
