@@ -104,7 +104,7 @@ function Parse-OrderRec($line){
   if($lm.Count -gt 0){
     $lv = $lm[$lm.Count-1].Value
     $ex = "$($lv[0])"; if($ex -eq 'M'){ $ex = '5' }
-    $rec = @{ ex=$ex; normal="$($lv[1])"; passive="$($lv[2])"; sub="$($lv[3])" }
+    $rec = [ordered]@{ ex=$ex; normal="$($lv[1])"; passive="$($lv[2])"; sub="$($lv[3])" }
   }
   return @{ order=$order; rec=$rec }
 }
@@ -127,11 +127,11 @@ $NOTE = @{
 # 역할별 권장 스킬 레벨 (EX 최대 5 / 일반·패시브·서브 최대 M=10, 우선순위 높은 순으로 M→7→5)
 # 키 순서: ex, normal(노말), passive(패시브), sub(서브)
 $RECLV = @{
-  DamageDealer = @{ ex='5'; normal='7'; passive='M'; sub='5' }
-  Tanker       = @{ ex='5'; normal='7'; passive='M'; sub='5' }
-  Healer       = @{ ex='5'; normal='M'; passive='7'; sub='5' }
-  Supporter    = @{ ex='5'; normal='M'; passive='7'; sub='5' }
-  Vehicle      = @{ ex='5'; normal='7'; passive='M'; sub='5' }
+  DamageDealer = [ordered]@{ ex='5'; normal='7'; passive='M'; sub='5' }
+  Tanker       = [ordered]@{ ex='5'; normal='7'; passive='M'; sub='5' }
+  Healer       = [ordered]@{ ex='5'; normal='M'; passive='7'; sub='5' }
+  Supporter    = [ordered]@{ ex='5'; normal='M'; passive='7'; sub='5' }
+  Vehicle      = [ordered]@{ ex='5'; normal='7'; passive='M'; sub='5' }
 }
 
 # 한정/상시 판별 + 모집 팁 (IsLimited[0]: 0·4=상시 / 1·2·3=한정·이벤트·페스 한정)
