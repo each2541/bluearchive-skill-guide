@@ -44,6 +44,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "상시 조각작 가능(하드 18-3)"
@@ -94,6 +95,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "조각작 가능(종합전술시험 상점)"
@@ -144,6 +146,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "상시 조각작 가능(하드 8-3, 12-3)",
@@ -195,6 +198,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "상시 조각작 가능(하드 5-3, 10-3)",
@@ -246,6 +250,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "상시 조각작 가능(하드 16-3, 24-3)"
@@ -296,6 +301,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "상시  조각작 가능(하드 7-3, 11-3)",
@@ -347,6 +353,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "상시 조각작 가능(하드 14-3, 20-3)"
@@ -397,6 +404,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "조각작 가능(총력전 상점)",
@@ -448,6 +456,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "상시 조각작 가능(하드 15-3)",
@@ -499,6 +508,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "상시 조각작 가능(하드 13-3)",
@@ -550,6 +560,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "상시 조각작 가능(하드 3-3, 9-3)"
@@ -600,6 +611,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "가능한 뽑기(1스 코스트 펌핑은 매우 범용적으로 쓰임)",
@@ -652,6 +664,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "조각작 가능(종합전술시험 상점)"
@@ -702,6 +715,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "조각작 가능(종합전술시험 상점)",
@@ -754,6 +768,7 @@ const STUDENTS = [
                     "normal":  "4"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 일반 모집 — 자주 등장해 풀돌(고유성 작)이 쉬운 편. 부담 없이 육성하세요.",
         "tips":  [
                      "조각작 가능(총력전 상점)",
@@ -805,6 +820,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 일반 모집 — 자주 등장해 풀돌(고유성 작)이 쉬운 편. 부담 없이 육성하세요.",
         "tips":  [
                      "상시 조각작 가능(하드 14-2, 17-2)"
@@ -854,6 +870,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 일반 모집 — 자주 등장해 풀돌(고유성 작)이 쉬운 편. 부담 없이 육성하세요.",
         "tips":  [
                      "상시 조각작 가능(하드 2-2, 5-1, 9-1, 11-1)"
@@ -904,6 +921,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 일반 모집 — 자주 등장해 풀돌(고유성 작)이 쉬운 편. 부담 없이 육성하세요.",
         "tips":  [
                      "상시 조각작 가능(하드 3-2, 8-2, 11-2)"
@@ -953,8 +971,9 @@ const STUDENTS = [
                     "sub":  "4",
                     "normal":  "7"
                 },
-        "limited":  true,
-        "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
+        "limited":  false,
+        "dist":  true,
+        "tip":  "이벤트 배포 학생 — 모집(뽑기)으로는 얻을 수 없고 이벤트·상점에서 획득합니다.",
         "tips":  [
                      "가이드 미션 배포",
                      "조각작 가능, 뽑기 불가(숙련증서 상점)"
@@ -1005,6 +1024,7 @@ const STUDENTS = [
                     "normal":  "4"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 일반 모집 — 자주 등장해 풀돌(고유성 작)이 쉬운 편. 부담 없이 육성하세요.",
         "tips":  [
                      "상시 조각작 가능(하드 14-1, 21-2)",
@@ -1056,6 +1076,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 일반 모집 — 자주 등장해 풀돌(고유성 작)이 쉬운 편. 부담 없이 육성하세요.",
         "tips":  [
                      "상시 조각작 가능(하드 13-2,16-2)"
@@ -1106,6 +1127,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 일반 모집 — 자주 등장해 풀돌(고유성 작)이 쉬운 편. 부담 없이 육성하세요.",
         "tips":  [
                      "상시 조각작 가능(하드 2-3, 5-2, 6-3)",
@@ -1156,6 +1178,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 일반 모집 — 자주 등장해 풀돌(고유성 작)이 쉬운 편. 부담 없이 육성하세요.",
         "tips":  [
                      "상시  조각작 가능(하드 1-3, 7-2, 9-2)"
@@ -1206,6 +1229,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 일반 모집 — 자주 등장해 풀돌(고유성 작)이 쉬운 편. 부담 없이 육성하세요.",
         "tips":  [
                      "상시 조각작 가능(하드 15-2, 23-2)",
@@ -1258,6 +1282,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 일반 모집 — 자주 등장해 풀돌(고유성 작)이 쉬운 편. 부담 없이 육성하세요.",
         "tips":  [
                      "상시 조각작 가능(하드 1-1, 4-3, 12-2)",
@@ -1309,6 +1334,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 일반 모집 — 자주 등장해 풀돌(고유성 작)이 쉬운 편. 부담 없이 육성하세요.",
         "tips":  [
                      "상시 조각작 가능(하드 13-1, 15-1, 25-1)"
@@ -1359,6 +1385,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 일반 모집 — 자주 등장해 풀돌(고유성 작)이 쉬운 편. 부담 없이 육성하세요.",
         "tips":  [
                      "상시 조각작 가능(하드 4-1, 7-1, 16-1)"
@@ -1409,6 +1436,7 @@ const STUDENTS = [
                     "normal":  "1"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 일반 모집 — 자주 등장해 풀돌(고유성 작)이 쉬운 편. 부담 없이 육성하세요.",
         "tips":  [
                      "상시 조각작 가능(하드 2-1, 8-1, 12-1)",
@@ -1460,6 +1488,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 일반 모집 — 자주 등장해 풀돌(고유성 작)이 쉬운 편. 부담 없이 육성하세요.",
         "tips":  [
                      "상시 조각작 가능(하드 1-2, 3-1, 6-1, 10-1)",
@@ -1512,6 +1541,7 @@ const STUDENTS = [
                     "normal":  "4"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 일반 모집 — 자주 등장해 풀돌(고유성 작)이 쉬운 편. 부담 없이 육성하세요.",
         "tips":  [
                      "상시 조각작 가능(하드 4-2, 6-2, 10-2, 30-1)",
@@ -1563,6 +1593,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2 안정수치 증가",
@@ -1615,6 +1646,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "상시 조각작 가능(하드 17-3)",
@@ -1666,6 +1698,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "조각작 가능(전술대회 상점)",
@@ -1717,6 +1750,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 일반 모집 — 자주 등장해 풀돌(고유성 작)이 쉬운 편. 부담 없이 육성하세요.",
         "tips":  [
                      "상시 조각작 가능(하드 19-2, 26-2)",
@@ -1769,6 +1803,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 일반 모집 — 자주 등장해 풀돌(고유성 작)이 쉬운 편. 부담 없이 육성하세요.",
         "tips":  [
                      "조각작 가능(전술대회 상점)"
@@ -1819,6 +1854,7 @@ const STUDENTS = [
                     "normal":  "4"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 일반 모집 — 자주 등장해 풀돌(고유성 작)이 쉬운 편. 부담 없이 육성하세요.",
         "tips":  [
                      "조각작 가능(총력전 상점)"
@@ -1869,6 +1905,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 일반 모집 — 자주 등장해 풀돌(고유성 작)이 쉬운 편. 부담 없이 육성하세요.",
         "tips":  [
                      "상시 조각작 가능(하드 20-2, 27-2)",
@@ -1920,6 +1957,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 일반 모집 — 자주 등장해 풀돌(고유성 작)이 쉬운 편. 부담 없이 육성하세요.",
         "tips":  [
                      "조각작 가능(전술대회 상점)"
@@ -1970,6 +2008,7 @@ const STUDENTS = [
                     "normal":  "4"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 일반 모집 — 자주 등장해 풀돌(고유성 작)이 쉬운 편. 부담 없이 육성하세요.",
         "tips":  [
                      "상시 조각작 가능(하드 18-2, 25-2)"
@@ -2020,6 +2059,7 @@ const STUDENTS = [
                     "normal":  "4"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 일반 모집 — 자주 등장해 풀돌(고유성 작)이 쉬운 편. 부담 없이 육성하세요.",
         "tips":  [
                      "조각작 가능(총력전 상점)",
@@ -2071,6 +2111,7 @@ const STUDENTS = [
                     "normal":  "1"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 일반 모집 — 자주 등장해 풀돌(고유성 작)이 쉬운 편. 부담 없이 육성하세요.",
         "tips":  [
                      "조각작 가능(총력전 상점)"
@@ -2121,6 +2162,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 일반 모집 — 자주 등장해 풀돌(고유성 작)이 쉬운 편. 부담 없이 육성하세요.",
         "tips":  [
                      "상시 조각작 가능(하드 19-1, 23-1, 28-1)"
@@ -2171,6 +2213,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 일반 모집 — 자주 등장해 풀돌(고유성 작)이 쉬운 편. 부담 없이 육성하세요.",
         "tips":  [
                      "상시 조각작 가능(하드 20-1, 24-1, 29-1)"
@@ -2221,6 +2264,7 @@ const STUDENTS = [
                     "normal":  "1"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 일반 모집 — 자주 등장해 풀돌(고유성 작)이 쉬운 편. 부담 없이 육성하세요.",
         "tips":  [
                      "상시 조각작 가능(하드 18-1, 22-1, 27-1)",
@@ -2273,6 +2317,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 일반 모집 — 자주 등장해 풀돌(고유성 작)이 쉬운 편. 부담 없이 육성하세요.",
         "tips":  [
                      "상시 조각작 가능(하드 17-1, 21-1, 26-1)",
@@ -2324,6 +2369,7 @@ const STUDENTS = [
                     "normal":  "4"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "조각작 가능(전술대회 상점)",
@@ -2375,6 +2421,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "상시 조각작 가능(하드 19-3)",
@@ -2426,6 +2473,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 일반 모집 — 자주 등장해 풀돌(고유성 작)이 쉬운 편. 부담 없이 육성하세요.",
         "tips":  [
                      "조각작 가능(전술대회 상점)",
@@ -2476,6 +2524,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2 공격력 증가",
@@ -2527,6 +2576,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "조각작 가능(총력전 상점)",
@@ -2578,6 +2628,7 @@ const STUDENTS = [
                     "normal":  "4"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 일반 모집 — 자주 등장해 풀돌(고유성 작)이 쉬운 편. 부담 없이 육성하세요.",
         "tips":  [
                      "조각작 가능(총력전 상점)",
@@ -2629,6 +2680,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "EX 3,5레벨에 각각 코스트 1 감소",
@@ -2680,8 +2732,9 @@ const STUDENTS = [
                     "sub":  "5",
                     "normal":  "M"
                 },
-        "limited":  true,
-        "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
+        "limited":  false,
+        "dist":  true,
+        "tip":  "이벤트 배포 학생 — 모집(뽑기)으로는 얻을 수 없고 이벤트·상점에서 획득합니다.",
         "tips":  [
                      "이벤트 한정 배포",
                      "조각작 가능, 뽑기 불가(숙련증서 상점)"
@@ -2732,6 +2785,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "조각작 가능(대결전 상점)"
@@ -2781,6 +2835,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "조각작 가능(총력전 상점)"
@@ -2831,6 +2886,7 @@ const STUDENTS = [
                     "normal":  "4"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 일반 모집 — 자주 등장해 풀돌(고유성 작)이 쉬운 편. 부담 없이 육성하세요.",
         "tips":  [
                      "조각작 가능(총력전 상점)"
@@ -2881,6 +2937,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "조각작 가능(총력전 상점)"
@@ -2930,6 +2987,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "한정",
@@ -2980,6 +3038,7 @@ const STUDENTS = [
                     "normal":  "4"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "한정",
@@ -3030,8 +3089,9 @@ const STUDENTS = [
                     "sub":  "7",
                     "normal":  "7"
                 },
-        "limited":  true,
-        "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
+        "limited":  false,
+        "dist":  true,
+        "tip":  "이벤트 배포 학생 — 모집(뽑기)으로는 얻을 수 없고 이벤트·상점에서 획득합니다.",
         "tips":  [
                      "이벤트 배포 한정",
                      "조각작 가능, 뽑기 불가(숙련증서 상점)"
@@ -3082,6 +3142,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "상시 조각작 가능(하드 21-3)"
@@ -3132,6 +3193,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "한정",
@@ -3183,6 +3245,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "한정",
@@ -3234,8 +3297,9 @@ const STUDENTS = [
                     "sub":  "5",
                     "normal":  "M"
                 },
-        "limited":  true,
-        "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
+        "limited":  false,
+        "dist":  true,
+        "tip":  "이벤트 배포 학생 — 모집(뽑기)으로는 얻을 수 없고 이벤트·상점에서 획득합니다.",
         "tips":  [
                      "이벤트 배포 한정",
                      "조각작 가능, 뽑기 불가(숙련증서 상점)"
@@ -3286,6 +3350,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "조각작 가능(대결전 상점)"
@@ -3335,6 +3400,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "상시 조각작 가능(하드 26-3)"
@@ -3385,6 +3451,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 일반 모집 — 자주 등장해 풀돌(고유성 작)이 쉬운 편. 부담 없이 육성하세요.",
         "tips":  [
                      "상시 조각작 가능(하드 22-2, 29-2)"
@@ -3435,6 +3502,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "상시 조각작 가능(하드 25-3)"
@@ -3485,6 +3553,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "한정",
@@ -3537,6 +3606,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "한정",
@@ -3588,6 +3658,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "애용품으로 코스트 돌려받음(필수)",
@@ -3639,6 +3710,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "조각작 가능(대결전 상점)"
@@ -3689,6 +3761,7 @@ const STUDENTS = [
                     "normal":  "4"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 일반 모집 — 자주 등장해 풀돌(고유성 작)이 쉬운 편. 부담 없이 육성하세요.",
         "tips":  [
                      "2코 보호막, 디버프 해제로 페로로지라 등에서 사용",
@@ -3740,6 +3813,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "콜라보 한정"
@@ -3790,6 +3864,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "무조건 뽑기"
@@ -3840,6 +3915,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "코스트 가벼운 폭발 히후미",
@@ -3891,6 +3967,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "상시 조각작 가능(하드 27-3)"
@@ -3940,8 +4017,9 @@ const STUDENTS = [
                     "sub":  "5",
                     "normal":  "M"
                 },
-        "limited":  true,
-        "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
+        "limited":  false,
+        "dist":  true,
+        "tip":  "이벤트 배포 학생 — 모집(뽑기)으로는 얻을 수 없고 이벤트·상점에서 획득합니다.",
         "tips":  [
                      "이벤트 배포 한정",
                      "조각작 가능, 뽑기 불가(숙련증서 상점)",
@@ -3993,6 +4071,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "조각작 가능(종합전술시험 상점)"
@@ -4043,6 +4122,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "한정",
@@ -4095,6 +4175,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "한정",
@@ -4146,6 +4227,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "조각작 가능(대결전 상점)"
@@ -4196,6 +4278,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "페스 한정",
@@ -4247,8 +4330,9 @@ const STUDENTS = [
                     "sub":  "7",
                     "normal":  "M"
                 },
-        "limited":  true,
-        "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
+        "limited":  false,
+        "dist":  true,
+        "tip":  "이벤트 배포 학생 — 모집(뽑기)으로는 얻을 수 없고 이벤트·상점에서 획득합니다.",
         "tips":  [
                      "이벤트 배포 한정",
                      "조각작 가능, 뽑기 불가(숙련증서 상점)",
@@ -4301,6 +4385,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "조각작 가능(대결전 상점)"
@@ -4351,6 +4436,7 @@ const STUDENTS = [
                     "normal":  "1"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "EX 3렙에 6.6초 5렙에 7.5초로 스턴시간 증가",
@@ -4402,6 +4488,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "쉴드+강제이동",
@@ -4452,6 +4539,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "무조건 뽑기",
@@ -4503,6 +4591,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "애용품 달고 야전 딜러 채용",
@@ -4554,6 +4643,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "불사+회피로 정공전, 총력전 설거지 등에 사용"
@@ -4602,6 +4692,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "EX 3렙 4.9초 EX 5렙 5.5초로 스턴시간 증가",
@@ -4653,6 +4744,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "EX 3렙 4.5초 EX 5렙 5.1초로 스턴시간 증가",
@@ -4704,6 +4796,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "다단 히트(네루 등) 딜러와 조합하여 사용"
@@ -4754,6 +4847,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "조각작 가능(대결전 상점)"
@@ -4804,6 +4898,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "EX 3렙에 7코스트, EX 5렙에 6코스트로 감소"
@@ -4853,8 +4948,9 @@ const STUDENTS = [
                     "sub":  "M",
                     "normal":  "M"
                 },
-        "limited":  true,
-        "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
+        "limited":  false,
+        "dist":  true,
+        "tip":  "이벤트 배포 학생 — 모집(뽑기)으로는 얻을 수 없고 이벤트·상점에서 획득합니다.",
         "tips":  [
                      "이벤트 배포 한정",
                      "조각작 가능, 뽑기 불가(숙련증서 상점)"
@@ -4905,6 +5001,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
 
@@ -4955,6 +5052,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "상시 조각작 가능(하드 28-3)"
@@ -5005,6 +5103,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "EX스킬 아리우스 스쿼드(아즈사 수즈사 미포함) 학생이 3명 이상이면 방깎수치 증가",
@@ -5056,6 +5155,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "회피 + 범위 힐의 탱커"
@@ -5105,6 +5205,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "EX 3,5레벨에 기절 지속시간 증가",
@@ -5156,6 +5257,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2성 시 2스에 방어관통 달림(필수)",
@@ -5206,8 +5308,9 @@ const STUDENTS = [
                     "sub":  "M",
                     "normal":  "7"
                 },
-        "limited":  true,
-        "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
+        "limited":  false,
+        "dist":  true,
+        "tip":  "이벤트 배포 학생 — 모집(뽑기)으로는 얻을 수 없고 이벤트·상점에서 획득합니다.",
         "tips":  [
                      "이벤트 배포 한정",
                      "조각작 가능, 뽑기 불가(숙련증서 상점)"
@@ -5258,6 +5361,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "페스 한정(무조건 뽑기)",
@@ -5308,8 +5412,9 @@ const STUDENTS = [
                     "sub":  "M",
                     "normal":  "M"
                 },
-        "limited":  true,
-        "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
+        "limited":  false,
+        "dist":  true,
+        "tip":  "이벤트 배포 학생 — 모집(뽑기)으로는 얻을 수 없고 이벤트·상점에서 획득합니다.",
         "tips":  [
                      "이벤트 배포 한정",
                      "조각작 가능, 뽑기 불가(숙련증서 상점)",
@@ -5361,6 +5466,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "한정",
@@ -5413,6 +5519,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "한정",
@@ -5465,6 +5572,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "3스킬은 아리우스 스쿼드 출신(아즈사 수즈사 포함) 학생이 파티에 있으면 공격력 증가"
@@ -5515,6 +5623,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "1스 1.2초에서 4렙 1.4초 , 7렙 1.5초 , 10렙 1.6초로 스턴시간 증가",
@@ -5565,6 +5674,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
 
@@ -5615,6 +5725,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "무조건 뽑기",
@@ -5665,6 +5776,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
 
@@ -5715,6 +5827,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "방깎, 집중 공격"
@@ -5764,8 +5877,9 @@ const STUDENTS = [
                     "sub":  "5",
                     "normal":  "7"
                 },
-        "limited":  true,
-        "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
+        "limited":  false,
+        "dist":  true,
+        "tip":  "이벤트 배포 학생 — 모집(뽑기)으로는 얻을 수 없고 이벤트·상점에서 획득합니다.",
         "tips":  [
                      "이벤트 배포 한정",
                      "조각작 가능, 뽑기 불가(숙련증서 상점)"
@@ -5816,6 +5930,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "신비 토템"
@@ -5866,6 +5981,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "한정",
@@ -5918,6 +6034,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "한정",
@@ -5969,8 +6086,9 @@ const STUDENTS = [
                     "sub":  "M",
                     "normal":  "M"
                 },
-        "limited":  true,
-        "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
+        "limited":  false,
+        "dist":  true,
+        "tip":  "이벤트 배포 학생 — 모집(뽑기)으로는 얻을 수 없고 이벤트·상점에서 획득합니다.",
         "tips":  [
                      "이벤트 배포 한정(전3 배포)",
                      "EX 코스트 모아쓰면 뎀증효과(최대 5코까지)"
@@ -6021,6 +6139,7 @@ const STUDENTS = [
                     "normal":  "4"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "가능한 뽑기",
@@ -6072,6 +6191,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
 
@@ -6121,6 +6241,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
 
@@ -6171,6 +6292,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
 
@@ -6221,6 +6343,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "한정",
@@ -6273,6 +6396,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "한정(무조건 뽑기)",
@@ -6323,8 +6447,9 @@ const STUDENTS = [
                     "sub":  "4",
                     "normal":  "4"
                 },
-        "limited":  true,
-        "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
+        "limited":  false,
+        "dist":  true,
+        "tip":  "이벤트 배포 학생 — 모집(뽑기)으로는 얻을 수 없고 이벤트·상점에서 획득합니다.",
         "tips":  [
                      "이벤트 배포 한정",
                      "조각작 가능, 뽑기 불가(숙련증서 상점)"
@@ -6375,6 +6500,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
 
@@ -6425,6 +6551,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "페스 한정(무조건 뽑기)",
@@ -6476,6 +6603,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "정공전 후열지지기용"
@@ -6526,6 +6654,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "ex는 관통 와카모 느낌의 스킬",
@@ -6576,6 +6705,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2 신비특효 가산",
@@ -6628,6 +6758,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "한정",
@@ -6680,6 +6811,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "한정",
@@ -6733,6 +6865,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "冏"
@@ -6783,6 +6916,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "무조건 뽑기",
@@ -6834,6 +6968,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2에 버프 지속 시간 증가"
@@ -6884,6 +7019,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
 
@@ -6934,6 +7070,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2 공격력 증가"
@@ -6984,6 +7121,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2 공격속도 증가",
@@ -7034,8 +7172,9 @@ const STUDENTS = [
                     "sub":  "M",
                     "normal":  "7"
                 },
-        "limited":  true,
-        "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
+        "limited":  false,
+        "dist":  true,
+        "tip":  "이벤트 배포 학생 — 모집(뽑기)으로는 얻을 수 없고 이벤트·상점에서 획득합니다.",
         "tips":  [
                      "전무 2 공격력 증가",
                      "이벤트 배포 한정",
@@ -7087,6 +7226,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
 
@@ -7137,6 +7277,7 @@ const STUDENTS = [
                     "normal":  "4"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "EX 5레벨에 첫 번째, 네 번째 대상 해로운 효과 제거",
@@ -7188,6 +7329,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "EX 5레벨에 명중수치 감소 추가로 한 번에 디버프 3개를 걸 수 있음"
@@ -7238,6 +7380,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "EX 코스트 모아쓰면 뎀증효과(최대 7코까지)",
@@ -7290,6 +7433,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "코스트 낮음+회피탱+코스트펌핑 = 헤세드 길뚫, 정공전도 기용"
@@ -7340,6 +7484,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2 디버프 유지시간 증가",
@@ -7390,8 +7535,9 @@ const STUDENTS = [
                     "sub":  "M",
                     "normal":  "7"
                 },
-        "limited":  true,
-        "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
+        "limited":  false,
+        "dist":  true,
+        "tip":  "이벤트 배포 학생 — 모집(뽑기)으로는 얻을 수 없고 이벤트·상점에서 획득합니다.",
         "tips":  [
                      "전무 2 치명데미지 증가",
                      "이벤트 배포 한정, 조각작 가능(숙련증서 상점)"
@@ -7442,6 +7588,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "총력전 2팟 이상, 정공전 필수"
@@ -7491,6 +7638,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "한정",
@@ -7542,6 +7690,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "한정",
@@ -7595,8 +7744,9 @@ const STUDENTS = [
                     "sub":  "M",
                     "normal":  "7"
                 },
-        "limited":  true,
-        "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
+        "limited":  false,
+        "dist":  true,
+        "tip":  "이벤트 배포 학생 — 모집(뽑기)으로는 얻을 수 없고 이벤트·상점에서 획득합니다.",
         "tips":  [
                      "이벤트 배포 한정",
                      "조각작 가능, 뽑기 불가(숙련증서 상점)",
@@ -7648,6 +7798,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "페스 한정(무조건 뽑기)",
@@ -7700,6 +7851,7 @@ const STUDENTS = [
                     "normal":  "4"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "비싼 시미코?"
@@ -7750,6 +7902,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "다단 히트(네루 등) 딜러와 조합하여 사용(미유와 비슷)",
@@ -7802,6 +7955,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 일반 모집 — 자주 등장해 풀돌(고유성 작)이 쉬운 편. 부담 없이 육성하세요.",
         "tips":  [
                      "상시 조각작 가능(30-2)"
@@ -7852,6 +8006,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "시즌 6 전술대회(정공전) 활약",
@@ -7903,6 +8058,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "비싼 후우카(정후카 X)"
@@ -7953,6 +8109,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2 공격력 증가"
@@ -8003,6 +8160,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "표기는 딜러인데 용도는 방깎용 서포터"
@@ -8053,6 +8211,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
 
@@ -8103,6 +8262,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "전무 2 공격력 증가",
@@ -8154,6 +8314,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "전무 2 공격력 증가",
@@ -8204,8 +8365,9 @@ const STUDENTS = [
                     "sub":  "M",
                     "normal":  "M"
                 },
-        "limited":  true,
-        "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
+        "limited":  false,
+        "dist":  true,
+        "tip":  "이벤트 배포 학생 — 모집(뽑기)으로는 얻을 수 없고 이벤트·상점에서 획득합니다.",
         "tips":  [
                      "전무 2 공격력 증가",
                      "콜라보 한정 (이벤트 배포, 기간 한정 조각작 가능)"
@@ -8256,6 +8418,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2 공격력 증가"
@@ -8306,6 +8469,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2 치명데미지 증가"
@@ -8356,6 +8520,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2 해로운 효과 유지력 증가"
@@ -8406,6 +8571,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2에 버프 지속 시간 증가"
@@ -8456,6 +8622,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무2에 군중제어강화력 증가(호드 토먼트 시 전2 권장)"
@@ -8505,6 +8672,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "무조건 뽑기(걸어다니는 히마리 같은 것)",
@@ -8556,6 +8724,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "한정",
@@ -8607,8 +8776,9 @@ const STUDENTS = [
                     "sub":  "1",
                     "normal":  "1"
                 },
-        "limited":  true,
-        "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
+        "limited":  false,
+        "dist":  true,
+        "tip":  "이벤트 배포 학생 — 모집(뽑기)으로는 얻을 수 없고 이벤트·상점에서 획득합니다.",
         "tips":  [
                      "이벤트 배포 한정",
                      "토라마루 탑승 가능(탑승 시 EX가 5코스트의 범위공격스킬로 변함)",
@@ -8660,6 +8830,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "한정",
@@ -8712,6 +8883,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "페스 한정(무조건 뽑기)",
@@ -8764,6 +8936,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2에 치명데미지 증가"
@@ -8814,6 +8987,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "무조건 뽑기(걸어다니는 아코 같은 것)"
@@ -8864,6 +9038,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2에 최대체력 증가",
@@ -8915,6 +9090,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "제결전 접대용이었으나 쿠로코로 인해 실직",
@@ -8966,6 +9142,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "코타마로 대체 가능"
@@ -9016,6 +9193,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "한정",
@@ -9069,6 +9247,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "한정",
@@ -9121,8 +9300,9 @@ const STUDENTS = [
                     "sub":  "4",
                     "normal":  "M"
                 },
-        "limited":  true,
-        "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
+        "limited":  false,
+        "dist":  true,
+        "tip":  "이벤트 배포 학생 — 모집(뽑기)으로는 얻을 수 없고 이벤트·상점에서 획득합니다.",
         "tips":  [
                      "이벤트 배포 한정",
                      "전무 2 공격력 증가"
@@ -9173,6 +9353,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2 치명데미지 증가"
@@ -9223,6 +9404,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2 치명수치, 치명데미지 증가",
@@ -9275,6 +9457,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2 진동특효, 공격력 증가"
@@ -9325,6 +9508,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전2 공격력 증가",
@@ -9376,6 +9560,7 @@ const STUDENTS = [
                     "normal":  "4"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2 디버프 지속 증가(초고점용)"
@@ -9426,6 +9611,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "게부라 루나틱 필수 딜러...인 줄 알았는데 없이도 깨는 악귀들 있음"
@@ -9475,8 +9661,9 @@ const STUDENTS = [
                     "sub":  "M",
                     "normal":  "7"
                 },
-        "limited":  true,
-        "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
+        "limited":  false,
+        "dist":  true,
+        "tip":  "이벤트 배포 학생 — 모집(뽑기)으로는 얻을 수 없고 이벤트·상점에서 획득합니다.",
         "tips":  [
                      "이벤트 한정 배포(3충 풀초 -\u003e 전1 이상 권장)"
                  ],
@@ -9526,6 +9713,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  null,
         "rating":  null
@@ -9574,6 +9762,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "페스 한정(무조건 뽑기)",
@@ -9627,6 +9816,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "페스 한정(무조건 뽑기)",
@@ -9678,8 +9868,9 @@ const STUDENTS = [
                     "sub":  "7",
                     "normal":  "7"
                 },
-        "limited":  true,
-        "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
+        "limited":  false,
+        "dist":  true,
+        "tip":  "이벤트 배포 학생 — 모집(뽑기)으로는 얻을 수 없고 이벤트·상점에서 획득합니다.",
         "tips":  [
                      "이벤트 배포 한정"
                  ],
@@ -9729,6 +9920,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "한정",
@@ -9781,6 +9973,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "한정",
@@ -9833,6 +10026,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2 공격력 증가",
@@ -9884,6 +10078,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
 
@@ -9934,6 +10129,7 @@ const STUDENTS = [
                     "normal":  "4"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
 
@@ -9984,6 +10180,7 @@ const STUDENTS = [
                     "normal":  "4"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "무조건 뽑기",
@@ -10035,6 +10232,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "한정",
@@ -10088,6 +10286,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "한정",
@@ -10138,8 +10337,9 @@ const STUDENTS = [
                     "sub":  "M",
                     "normal":  "M"
                 },
-        "limited":  true,
-        "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
+        "limited":  false,
+        "dist":  true,
+        "tip":  "이벤트 배포 학생 — 모집(뽑기)으로는 얻을 수 없고 이벤트·상점에서 획득합니다.",
         "tips":  [
                      "이벤트 배포 한정"
                  ],
@@ -10189,6 +10389,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2 공격력 증가"
@@ -10239,6 +10440,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "게부라 필수 딜러(전3 찍던가 빌려쓰던가...)",
@@ -10290,6 +10492,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2 해로운 효과 유지력 증가",
@@ -10340,6 +10543,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2 공격력 증가",
@@ -10391,6 +10595,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "한정(무조건 뽑기)",
@@ -10443,6 +10648,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "전무 2에 버프 지속 시간 증가",
@@ -10494,8 +10700,9 @@ const STUDENTS = [
                     "sub":  "M",
                     "normal":  "M"
                 },
-        "limited":  true,
-        "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
+        "limited":  false,
+        "dist":  true,
+        "tip":  "이벤트 배포 학생 — 모집(뽑기)으로는 얻을 수 없고 이벤트·상점에서 획득합니다.",
         "tips":  [
                      "전무 2 공격력 증가",
                      "이벤트 배포 한정"
@@ -10546,6 +10753,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "페스 한정(무조건 뽑기)",
@@ -10596,6 +10804,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "페스 한정(반드시 뽑기)",
@@ -10648,6 +10857,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2 공격력 증가",
@@ -10700,6 +10910,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2 치유력 증가(루나틱 필수)",
@@ -10751,6 +10962,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "호버크래프트 루나틱 고점픽(필수 아님)"
@@ -10801,6 +11013,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2 치유력 증가",
@@ -10852,6 +11065,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2 치명데미지 증가"
@@ -10901,6 +11115,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2 공격력 증가",
@@ -10952,6 +11167,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2 치명데미지 증가",
@@ -11003,6 +11219,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "한정",
@@ -11057,6 +11274,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "한정",
@@ -11108,8 +11326,9 @@ const STUDENTS = [
                     "sub":  "1",
                     "normal":  "1"
                 },
-        "limited":  true,
-        "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
+        "limited":  false,
+        "dist":  true,
+        "tip":  "이벤트 배포 학생 — 모집(뽑기)으로는 얻을 수 없고 이벤트·상점에서 획득합니다.",
         "tips":  [
                      "이벤트 배포 한정"
                  ],
@@ -11159,6 +11378,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2 방어관통 증가",
@@ -11210,6 +11430,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2 치명데미지 증가"
@@ -11260,6 +11481,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2 공격력 증가"
@@ -11310,6 +11532,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2 치유력 증가"
@@ -11360,6 +11583,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2 관통특효 증가"
@@ -11410,6 +11634,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 일반 모집 — 자주 등장해 풀돌(고유성 작)이 쉬운 편. 부담 없이 육성하세요.",
         "tips":  [
                      "전무 2 공격력 증가"
@@ -11460,6 +11685,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
 
@@ -11510,6 +11736,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "한정(무조건 뽑기)",
@@ -11561,6 +11788,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "한정",
@@ -11612,8 +11840,9 @@ const STUDENTS = [
                     "sub":  "7",
                     "normal":  "7"
                 },
-        "limited":  true,
-        "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
+        "limited":  false,
+        "dist":  true,
+        "tip":  "이벤트 배포 학생 — 모집(뽑기)으로는 얻을 수 없고 이벤트·상점에서 획득합니다.",
         "tips":  [
                      "이벤트 배포 한정"
                  ],
@@ -11663,6 +11892,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "페스 한정(무조건 뽑기)",
@@ -11715,6 +11945,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "페스 한정(무조건 뽑기)",
@@ -11767,6 +11998,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2 진동 특효 가산"
@@ -11817,6 +12049,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2 최대 체력 증가",
@@ -11868,6 +12101,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2 치명데미지 증가"
@@ -11918,6 +12152,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2 버프 지속 시간 증가"
@@ -11968,6 +12203,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2 디버프 지속시간 증가"
@@ -12018,6 +12254,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2 버프 지속 시간 증가"
@@ -12068,6 +12305,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "한정",
@@ -12120,6 +12358,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "한정",
@@ -12171,8 +12410,9 @@ const STUDENTS = [
                     "sub":  "M",
                     "normal":  "M"
                 },
-        "limited":  true,
-        "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
+        "limited":  false,
+        "dist":  true,
+        "tip":  "이벤트 배포 학생 — 모집(뽑기)으로는 얻을 수 없고 이벤트·상점에서 획득합니다.",
         "tips":  [
                      "이벤트 배포 한정",
                      "전무 2 공격력 증가"
@@ -12221,6 +12461,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2 치명데미지 증가"
@@ -12271,6 +12512,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
 
@@ -12321,6 +12563,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2 버프 지속 시간 증가",
@@ -12372,6 +12615,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "엄폐물 탱커. 체력컷은 적절하게..."
@@ -12422,6 +12666,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2 치유력 증가",
@@ -12473,6 +12718,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "한정",
@@ -12525,8 +12771,9 @@ const STUDENTS = [
                     "sub":  "7",
                     "normal":  "7"
                 },
-        "limited":  true,
-        "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
+        "limited":  false,
+        "dist":  true,
+        "tip":  "이벤트 배포 학생 — 모집(뽑기)으로는 얻을 수 없고 이벤트·상점에서 획득합니다.",
         "tips":  [
                      "이벤트 배포 한정",
                      "전무 2 공격력, 치유력 증가",
@@ -12578,6 +12825,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "한정(무조건 뽑기)",
@@ -12629,6 +12877,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "페스 한정(무조건 뽑기)",
@@ -12681,6 +12930,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  [
                      "페스 한정(무조건 뽑기)",
@@ -12732,6 +12982,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2 공격력 증가"
@@ -12782,6 +13033,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "전무 2 공격력 증가"
@@ -12832,6 +13084,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  [
                      "冏"
@@ -12882,6 +13135,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  null,
         "rating":  null
@@ -12930,6 +13184,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  null,
         "rating":  null
@@ -12978,6 +13233,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  null,
         "rating":  null
@@ -13026,6 +13282,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  null,
         "rating":  null
@@ -13074,6 +13331,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  true,
+        "dist":  false,
         "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
         "tips":  null,
         "rating":  null
@@ -13121,8 +13379,9 @@ const STUDENTS = [
                     "sub":  "5",
                     "normal":  "7"
                 },
-        "limited":  true,
-        "tip":  "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
+        "limited":  false,
+        "dist":  true,
+        "tip":  "이벤트 배포 학생 — 모집(뽑기)으로는 얻을 수 없고 이벤트·상점에서 획득합니다.",
         "tips":  null,
         "rating":  null
     },
@@ -13170,6 +13429,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  null,
         "rating":  null
@@ -13218,6 +13478,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  null,
         "rating":  null
@@ -13266,6 +13527,7 @@ const STUDENTS = [
                     "normal":  "7"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  null,
         "rating":  null
@@ -13314,6 +13576,7 @@ const STUDENTS = [
                     "normal":  "M"
                 },
         "limited":  false,
+        "dist":  false,
         "tip":  "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
         "tips":  null,
         "rating":  null

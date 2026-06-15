@@ -132,15 +132,18 @@ $RECLV = @{
 function Pickup-Info($s){
   $code = [int]$s.IsLimited[0]
   $rar  = [int]$s.StarGrade
-  $isLimited = ($code -ne 0 -and $code -ne 4)
+  $isLimited = ($code -eq 1 -or $code -eq 3)   # 가챠 한정(한정 모집/페스/콜라보)
+  $isDist    = ($code -eq 2)                    # 이벤트 배포(모집 불가, 이벤트/상점 획득)
   if($isLimited){
     $tip = '한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!'
+  } elseif($isDist){
+    $tip = '이벤트 배포 학생 — 모집(뽑기)으로는 얻을 수 없고 이벤트·상점에서 획득합니다.'
   } elseif($rar -ge 3){
     $tip = '상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.'
   } else {
     $tip = '상시 일반 모집 — 자주 등장해 풀돌(고유성 작)이 쉬운 편. 부담 없이 육성하세요.'
   }
-  return @{ limited = $isLimited; tip = $tip }
+  return @{ limited = $isLimited; dist = $isDist; tip = $tip }
 }
 
 # ===== 팁스.txt 파싱: 추천도(★) + 프로필(순서·레벨) + 사용자 팁(*) =====
@@ -216,6 +219,7 @@ $students = foreach($s in $released){
     note      = $NOTE[$roleRaw]
     rec       = $recVal
     limited   = $pk.limited
+    dist      = $pk.dist
     tip       = $pk.tip
     tips      = $custom
     rating    = $rateVal

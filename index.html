@@ -57,6 +57,9 @@
     border:1px solid var(--line); background:var(--panel); color:var(--sub); transition:.15s;}
   .chip:hover{border-color:var(--accent)}
   .chip.on{background:var(--accent); color:#06131f; border-color:var(--accent); font-weight:700}
+  .chip.limited-chip{border-color:rgba(255,200,90,.5); color:var(--gold)}
+  .chip.limited-chip:hover{border-color:var(--gold)}
+  .chip.limited-chip.on{background:linear-gradient(135deg,#ffd86b,#f0a93a); color:#3a2600; border-color:transparent; font-weight:800}
   .sep{width:1px; height:22px; background:var(--line); margin:0 2px}
   select{background:var(--panel); color:var(--txt); border:1px solid var(--line);
     border-radius:999px; padding:6px 12px; font-size:13px; cursor:pointer; outline:none}
@@ -124,6 +127,7 @@
   .tip .rate{margin-top:4px; font-weight:700}
   .tip .hearts{color:#ff6b81; letter-spacing:2px; font-size:14px; margin-left:3px}
   .tag.limited{background:linear-gradient(135deg,#a87410,#7a5408); color:#ffe6a8; border:0; font-weight:700}
+  .tag.dist{background:linear-gradient(135deg,#1f9e8f,#15756a); color:#eafffb; border:0; font-weight:700}
 
   .empty{text-align:center; padding:60px 20px; color:var(--sub)}
   .empty .big{font-size:42px; margin-bottom:8px}
@@ -235,7 +239,7 @@ const filtersEl = document.getElementById('filters');
 const countEl = document.getElementById('count');
 const emptyEl = document.getElementById('empty');
 
-let activeAtk="all", activeRole="all", activeSchool="all";
+let activeAtk="all", activeRole="all", activeSchool="all", activeLimited=false;
 
 const schools = [...new Set(STUDENTS.map(s=>s.school))].sort();
 const roles = ["딜러","탱커","힐러","서포터","차량"].filter(r=>STUDENTS.some(s=>s.role===r));
@@ -247,16 +251,20 @@ function buildFilters(){
   html += `<span class="chip on" data-g="role" data-v="all">전체 역할</span>`;
   html += roles.map(r=>`<span class="chip" data-g="role" data-v="${r}">${r}</span>`).join("");
   html += `<span class="sep"></span>`;
+  html += `<span class="chip limited-chip${activeLimited?' on':''}" id="limitedChip">⭐ 한정</span>`;
+  html += `<span class="sep"></span>`;
   html += `<select id="schoolSel"><option value="all">전체 학교</option>` +
-          schools.map(s=>`<option value="${s}">${s}</option>`).join("") + `</select>`;
+          schools.map(s=>`<option value="${s}"${activeSchool===s?' selected':''}>${s}</option>`).join("") + `</select>`;
   filtersEl.innerHTML = html;
-  filtersEl.querySelectorAll('.chip').forEach(chip=>chip.addEventListener('click',()=>{
+  filtersEl.querySelectorAll('.chip[data-g]').forEach(chip=>chip.addEventListener('click',()=>{
     const g=chip.dataset.g, v=chip.dataset.v;
     filtersEl.querySelectorAll(`.chip[data-g="${g}"]`).forEach(c=>c.classList.remove('on'));
     chip.classList.add('on');
     if(g==="atk") activeAtk=v; else activeRole=v;
     render();
   }));
+  const lc=document.getElementById('limitedChip');
+  lc.addEventListener('click',()=>{ activeLimited=!activeLimited; lc.classList.toggle('on',activeLimited); render(); });
   document.getElementById('schoolSel').addEventListener('change',e=>{activeSchool=e.target.value; render();});
 }
 
@@ -309,6 +317,7 @@ function card(s){
         </div>
         <div class="tags">
           ${s.limited?`<span class="tag limited">⭐ 한정</span>`:""}
+          ${s.dist?`<span class="tag dist">📦 배포</span>`:""}
           <span class="tag atk ${s.atk}">${s.atkLabel}</span>
           <span class="tag role">${s.role}</span>
           <span class="tag">${s.position}</span>
@@ -339,7 +348,8 @@ function render(){
     const okA=activeAtk==="all"||s.atk===activeAtk;
     const okR=activeRole==="all"||s.role===activeRole;
     const okS=activeSchool==="all"||s.school===activeSchool;
-    return okQ&&okA&&okR&&okS;
+    const okL=!activeLimited||s.limited===true;
+    return okQ&&okA&&okR&&okS&&okL;
   });
   grid.innerHTML=list.map(card).join("");
   emptyEl.style.display=list.length?"none":"block";
@@ -357,7 +367,7 @@ function pkItem(name){
   const s=STUDENTS.find(x=>x.name===name);
   if(!s) return `<div class="pk" data-name="${name}"><div class="pkname">${name}</div></div>`;
   return `<div class="pk" data-name="${s.name}" title="${s.name} 검색"><img src="${s.icon}" loading="lazy" alt="${s.name}" onerror="this.onerror=null;this.src='${s.img}'">
-    <div><div class="pkname">${s.name}</div><div class="pktags">${s.atkLabel} · ${s.role}${s.limited?' · ⭐한정':''}</div></div></div>`;
+    <div><div class="pkname">${s.name}</div><div class="pktags">${s.atkLabel} · ${s.role}${s.limited?' · ⭐한정':(s.dist?' · 📦배포':'')}</div></div></div>`;
 }
 function buildModal(){
   if(typeof PICKUP==='undefined') return false;
@@ -374,7 +384,7 @@ function openModal(){overlay.classList.remove('hidden');}
 function closeModal(){overlay.classList.add('hidden');}
 function hideToday(){try{localStorage.setItem('ba_pickup_hide',todayStr());}catch(e){} closeModal();}
 function searchStudent(name){
-  search.value=name; activeAtk="all"; activeRole="all"; activeSchool="all";
+  search.value=name; activeAtk="all"; activeRole="all"; activeSchool="all"; activeLimited=false;
   buildFilters(); render();
   closeModal();
   window.scrollTo({top:0, behavior:'smooth'});
