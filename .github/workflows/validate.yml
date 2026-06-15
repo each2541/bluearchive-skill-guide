@@ -1,0 +1,21 @@
+name: Validate
+
+# main에 푸시될 때마다 data.js 파싱 + pickup.js 이름 검증(오타 방지).
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data.js'
+      - 'pickup.js'
+      - 'validate.ps1'
+  workflow_dispatch: {}
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Validate data.js & pickup.js
+        shell: pwsh
+        run: ./validate.ps1

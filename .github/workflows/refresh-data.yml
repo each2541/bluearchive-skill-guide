@@ -1,0 +1,39 @@
+name: Refresh student data
+
+# 매주 1회 SchaleDB에서 최신 학생 데이터를 받아 data.js를 재생성하고,
+# 변경이 있으면 자동 커밋·푸시 → Cloudflare Pages가 자동 재배포.
+on:
+  schedule:
+    - cron: '23 2 * * 4'   # 매주 목요일 02:23 UTC (KR 목 11:23) — KR 수요일 점검 이후
+  workflow_dispatch: {}      # 수동 실행 버튼
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Regenerate data.js (download latest + detect new students)
+        shell: pwsh
+        run: ./generate.ps1
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data.js known_ids.json
+          if git diff --cached --quiet; then
+            echo "변경 없음 — 커밋 생략"
+          else
+            git commit -m "chore: auto-refresh student data ($(date -u +%Y-%m-%d))"
+            git push
+            echo "데이터 갱신 푸시 완료"
+          fi
