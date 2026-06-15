@@ -128,6 +128,7 @@
   .tip .hearts{color:#ff6b81; letter-spacing:2px; font-size:14px; margin-left:3px}
   .tag.limited{background:linear-gradient(135deg,#a87410,#7a5408); color:#ffe6a8; border:0; font-weight:700}
   .tag.dist{background:linear-gradient(135deg,#1f9e8f,#15756a); color:#eafffb; border:0; font-weight:700}
+  .tag.new{background:linear-gradient(135deg,#41d18b,#27a86b); color:#04150d; border:0; font-weight:800}
 
   .empty{text-align:center; padding:60px 20px; color:var(--sub)}
   .empty .big{font-size:42px; margin-bottom:8px}
@@ -316,6 +317,7 @@ function card(s){
           <div class="sc">${s.school||""}</div>
         </div>
         <div class="tags">
+          ${s.isNew?`<span class="tag new">🆕 NEW</span>`:""}
           ${s.limited?`<span class="tag limited">⭐ 한정</span>`:""}
           ${s.dist?`<span class="tag dist">📦 배포</span>`:""}
           <span class="tag atk ${s.atk}">${s.atkLabel}</span>

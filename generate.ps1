@@ -1,6 +1,12 @@
 ﻿$ErrorActionPreference='Stop'
-$dir = "C:\Users\each2\bluearchive"
-$raw = (Get-Content "$dir\students_kr.json" -Raw -Encoding UTF8) -replace '"BirthDay":', '"BirthDayX":'
+[Net.ServicePointManager]::SecurityProtocol=[Net.SecurityProtocolType]::Tls12
+# 저장소 루트 (로컬: bluearchive 폴더 / GitHub Actions: 체크아웃 경로)
+$dir = if($PSScriptRoot){ $PSScriptRoot } else { (Get-Location).Path }
+# SchaleDB에서 한국 서버 학생 데이터 최신본 다운로드 (실패 시 기존 파일 사용)
+$studentsFile = Join-Path $dir 'students_kr.json'
+try { Invoke-WebRequest -Uri "https://schaledb.com/data/kr/students.min.json" -OutFile $studentsFile -UseBasicParsing }
+catch { Write-Host "students 다운로드 실패, 기존 파일 사용: $($_.Exception.Message)" }
+$raw = (Get-Content $studentsFile -Raw -Encoding UTF8) -replace '"BirthDay":', '"BirthDayX":'
 $json = $raw | ConvertFrom-Json
 $all = $json.PSObject.Properties.Name | ForEach-Object { $json.$_ }
 $released = $all | Where-Object { $_.IsReleased[0] -eq $true } | Sort-Object DefaultOrder
@@ -147,7 +153,11 @@ function Pickup-Info($s){
 }
 
 # ===== 팁스.txt 파싱: 추천도(★) + 프로필(순서·레벨) + 사용자 팁(*) =====
-$tipPath = "C:\Users\each2\Downloads\팁스.txt"
+# 팁 소스: 저장소의 tips.txt. 로컬에 Downloads\팁스.txt가 있으면 최신본을 저장소로 동기화.
+$repoTip = Join-Path $dir 'tips.txt'
+$dlTip   = "C:\Users\each2\Downloads\팁스.txt"
+if(Test-Path $dlTip){ Copy-Item $dlTip $repoTip -Force }
+$tipPath = $repoTip
 $TIPENTRIES = @()
 if(Test-Path $tipPath){
   $cur = $null; $pendingRating = $null
@@ -190,6 +200,12 @@ function Match-Entry($sname){
   return $best
 }
 
+# 신규(NEW) 판별: 이전 실행에서 본 ID와 비교 (최초 실행은 전부 기존으로 간주 → NEW 표시 안 함)
+$knownPath  = Join-Path $dir 'known_ids.json'
+$currentIds = @($released | ForEach-Object { [int]$_.Id })
+$known      = if(Test-Path $knownPath){ @((Get-Content $knownPath -Raw -Encoding UTF8 | ConvertFrom-Json)) } else { $currentIds }
+$newIds     = @($currentIds | Where-Object { $known -notcontains $_ })
+
 $students = foreach($s in $released){
   $roleRaw = [string]$s.TacticRole
   $pk = Pickup-Info $s
@@ -220,6 +236,7 @@ $students = foreach($s in $released){
     rec       = $recVal
     limited   = $pk.limited
     dist      = $pk.dist
+    isNew     = ($newIds -contains [int]$s.Id)
     tip       = $pk.tip
     tips      = $custom
     rating    = $rateVal
@@ -229,5 +246,9 @@ $students = foreach($s in $released){
 $jsonOut = $students | ConvertTo-Json -Depth 6
 $content = "/* 자동 생성 데이터 — SchaleDB(schaledb.com) 한국 서버 기준. 출시 학생 $($students.Count)명. */`r`nconst STUDENTS = $jsonOut;"
 $enc = New-Object System.Text.UTF8Encoding($false)
-[System.IO.File]::WriteAllText("$dir\data.js", $content, $enc)
+[System.IO.File]::WriteAllText((Join-Path $dir 'data.js'), $content, $enc)
+# 신규 추적 파일 갱신 (다음 실행 때 비교 기준)
+$merged = @(($known + $currentIds) | Sort-Object -Unique)
+[System.IO.File]::WriteAllText($knownPath, ($merged | ConvertTo-Json -Compress), $enc)
+if($newIds.Count){ Write-Host ("신규 학생 $($newIds.Count)명: " + (($students | Where-Object { $_.isNew } | ForEach-Object { $_.name }) -join ', ')) }
 "생성 완료: data.js ($($students.Count)명)"
