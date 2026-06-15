@@ -38,10 +38,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "7",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "7"
     },
     "limited": false,
     "dist": false,
@@ -90,10 +90,10 @@ const STUDENTS = [
     ],
     "note": "생존이 핵심 — 강화 패시브(생존/방어)를 우선, 그 다음 EX",
     "rec": {
-      "passive": "7",
-      "sub": "7",
       "ex": "3",
-      "normal": "M"
+      "normal": "M",
+      "passive": "7",
+      "sub": "7"
     },
     "limited": false,
     "dist": false,
@@ -142,10 +142,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "4",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "4",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -195,10 +195,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "7",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "7"
     },
     "limited": false,
     "dist": false,
@@ -248,10 +248,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "7",
-      "sub": "7",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "7"
     },
     "limited": false,
     "dist": false,
@@ -300,10 +300,10 @@ const STUDENTS = [
     ],
     "note": "생존이 핵심 — 강화 패시브(생존/방어)를 우선, 그 다음 EX",
     "rec": {
-      "passive": "7",
-      "sub": "7",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "7"
     },
     "limited": false,
     "dist": false,
@@ -353,10 +353,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "7",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "7",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -405,10 +405,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -458,10 +458,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -511,10 +511,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "5",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "M",
+      "sub": "5"
     },
     "limited": false,
     "dist": false,
@@ -564,10 +564,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "7",
-      "sub": "7",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "7"
     },
     "limited": false,
     "dist": false,
@@ -616,10 +616,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "5",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "M",
+      "sub": "5"
     },
     "limited": false,
     "dist": false,
@@ -670,10 +670,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "7",
-      "sub": "7",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "7"
     },
     "limited": false,
     "dist": false,
@@ -722,10 +722,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -776,10 +776,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "1",
       "ex": "5",
-      "normal": "4"
+      "normal": "4",
+      "passive": "7",
+      "sub": "1"
     },
     "limited": false,
     "dist": false,
@@ -829,10 +829,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -880,10 +880,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "4",
-      "sub": "7",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "4",
+      "sub": "7"
     },
     "limited": false,
     "dist": false,
@@ -932,10 +932,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "7",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "M",
+      "sub": "7"
     },
     "limited": false,
     "dist": false,
@@ -984,10 +984,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "7",
-      "sub": "4",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "4"
     },
     "limited": false,
     "dist": true,
@@ -1037,10 +1037,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "7",
       "ex": "5",
-      "normal": "4"
+      "normal": "4",
+      "passive": "7",
+      "sub": "7"
     },
     "limited": false,
     "dist": false,
@@ -1090,10 +1090,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "7",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "7"
     },
     "limited": false,
     "dist": false,
@@ -1142,10 +1142,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -1194,10 +1194,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "7",
-      "sub": "7",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "7"
     },
     "limited": false,
     "dist": false,
@@ -1246,10 +1246,10 @@ const STUDENTS = [
     ],
     "note": "생존이 핵심 — 강화 패시브(생존/방어)를 우선, 그 다음 EX",
     "rec": {
-      "passive": "7",
-      "sub": "7",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "7"
     },
     "limited": false,
     "dist": false,
@@ -1300,10 +1300,10 @@ const STUDENTS = [
     ],
     "note": "생존이 핵심 — 강화 패시브(생존/방어)를 우선, 그 다음 EX",
     "rec": {
-      "passive": "7",
-      "sub": "4",
       "ex": "3",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "4"
     },
     "limited": false,
     "dist": false,
@@ -1353,10 +1353,10 @@ const STUDENTS = [
     ],
     "note": "생존이 핵심 — 강화 패시브(생존/방어)를 우선, 그 다음 EX",
     "rec": {
-      "passive": "7",
-      "sub": "7",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "7",
+      "sub": "7"
     },
     "limited": false,
     "dist": false,
@@ -1405,10 +1405,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "7",
-      "sub": "7",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "7"
     },
     "limited": false,
     "dist": false,
@@ -1457,10 +1457,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "1",
-      "sub": "1",
       "ex": "5",
-      "normal": "1"
+      "normal": "1",
+      "passive": "1",
+      "sub": "1"
     },
     "limited": false,
     "dist": false,
@@ -1510,10 +1510,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "1",
-      "sub": "1",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "1",
+      "sub": "1"
     },
     "limited": false,
     "dist": false,
@@ -1564,10 +1564,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "7",
-      "sub": "M",
       "ex": "5",
-      "normal": "4"
+      "normal": "4",
+      "passive": "7",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -1617,10 +1617,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -1671,10 +1671,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "7",
-      "sub": "M",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -1724,10 +1724,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -1777,10 +1777,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "5",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "7",
+      "sub": "5"
     },
     "limited": false,
     "dist": false,
@@ -1831,10 +1831,10 @@ const STUDENTS = [
     ],
     "note": "회복량 직결 — EX를 최우선으로, 이후 일반/패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "5",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "7",
+      "sub": "5"
     },
     "limited": false,
     "dist": false,
@@ -1883,10 +1883,10 @@ const STUDENTS = [
     ],
     "note": "회복량 직결 — EX를 최우선으로, 이후 일반/패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "M",
       "ex": "3",
-      "normal": "4"
+      "normal": "4",
+      "passive": "7",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -1935,10 +1935,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "5",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "7",
+      "sub": "5"
     },
     "limited": false,
     "dist": false,
@@ -1988,10 +1988,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -2040,10 +2040,10 @@ const STUDENTS = [
     ],
     "note": "회복량 직결 — EX를 최우선으로, 이후 일반/패시브 M",
     "rec": {
-      "passive": "4",
-      "sub": "4",
       "ex": "3",
-      "normal": "4"
+      "normal": "4",
+      "passive": "4",
+      "sub": "4"
     },
     "limited": false,
     "dist": false,
@@ -2092,10 +2092,10 @@ const STUDENTS = [
     ],
     "note": "회복량 직결 — EX를 최우선으로, 이후 일반/패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "4",
       "ex": "4",
-      "normal": "4"
+      "normal": "4",
+      "passive": "7",
+      "sub": "4"
     },
     "limited": false,
     "dist": false,
@@ -2145,10 +2145,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "1",
-      "sub": "M",
       "ex": "5",
-      "normal": "1"
+      "normal": "1",
+      "passive": "1",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -2197,10 +2197,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "5",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "7",
+      "sub": "5"
     },
     "limited": false,
     "dist": false,
@@ -2249,10 +2249,10 @@ const STUDENTS = [
     ],
     "note": "회복량 직결 — EX를 최우선으로, 이후 일반/패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "1",
       "ex": "4",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "1"
     },
     "limited": false,
     "dist": false,
@@ -2301,10 +2301,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "1",
-      "sub": "1",
       "ex": "5",
-      "normal": "1"
+      "normal": "1",
+      "passive": "1",
+      "sub": "1"
     },
     "limited": false,
     "dist": false,
@@ -2355,10 +2355,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "5",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "M",
+      "sub": "5"
     },
     "limited": false,
     "dist": false,
@@ -2408,10 +2408,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "4",
-      "sub": "7",
       "ex": "5",
-      "normal": "4"
+      "normal": "4",
+      "passive": "4",
+      "sub": "7"
     },
     "limited": false,
     "dist": false,
@@ -2461,10 +2461,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -2514,10 +2514,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "5",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "7",
+      "sub": "5"
     },
     "limited": false,
     "dist": false,
@@ -2566,10 +2566,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "7",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "M",
+      "sub": "7"
     },
     "limited": false,
     "dist": false,
@@ -2619,10 +2619,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "7",
-      "sub": "7",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "7"
     },
     "limited": false,
     "dist": false,
@@ -2672,10 +2672,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "7",
-      "sub": "M",
       "ex": "5",
-      "normal": "4"
+      "normal": "4",
+      "passive": "7",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -2725,10 +2725,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -2779,10 +2779,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "5",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "7",
+      "sub": "5"
     },
     "limited": false,
     "dist": true,
@@ -2832,10 +2832,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -2883,10 +2883,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "7",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "7",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -2935,10 +2935,10 @@ const STUDENTS = [
     ],
     "note": "회복량 직결 — EX를 최우선으로, 이후 일반/패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "1",
       "ex": "3",
-      "normal": "4"
+      "normal": "4",
+      "passive": "7",
+      "sub": "1"
     },
     "limited": false,
     "dist": false,
@@ -2987,10 +2987,10 @@ const STUDENTS = [
     ],
     "note": "회복량 직결 — EX를 최우선으로, 이후 일반/패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "7",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "7",
+      "sub": "7"
     },
     "limited": false,
     "dist": false,
@@ -3038,10 +3038,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "7",
-      "sub": "M",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
@@ -3090,10 +3090,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "7",
-      "sub": "7",
       "ex": "5",
-      "normal": "4"
+      "normal": "4",
+      "passive": "7",
+      "sub": "7"
     },
     "limited": true,
     "dist": false,
@@ -3143,10 +3143,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "7",
-      "sub": "7",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "7"
     },
     "limited": false,
     "dist": true,
@@ -3196,10 +3196,10 @@ const STUDENTS = [
     ],
     "note": "EX 화력 위주 — 활용 빈도에 따라 나머지 스킬 투자",
     "rec": {
-      "passive": "7",
-      "sub": "7",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "7"
     },
     "limited": false,
     "dist": false,
@@ -3248,10 +3248,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "7",
-      "sub": "M",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
@@ -3301,10 +3301,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "7",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "7",
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
@@ -3355,10 +3355,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "5",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "7",
+      "sub": "5"
     },
     "limited": false,
     "dist": true,
@@ -3408,10 +3408,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "7",
-      "sub": "7",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "7"
     },
     "limited": false,
     "dist": false,
@@ -3459,10 +3459,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "7",
-      "sub": "M",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -3511,10 +3511,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "5",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "7",
+      "sub": "5"
     },
     "limited": false,
     "dist": false,
@@ -3563,10 +3563,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "7",
-      "sub": "M",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -3615,10 +3615,10 @@ const STUDENTS = [
     ],
     "note": "생존이 핵심 — 강화 패시브(생존/방어)를 우선, 그 다음 EX",
     "rec": {
-      "passive": "4",
-      "sub": "7",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "4",
+      "sub": "7"
     },
     "limited": true,
     "dist": false,
@@ -3669,10 +3669,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "7",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "7"
     },
     "limited": true,
     "dist": false,
@@ -3722,10 +3722,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "5",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "7",
+      "sub": "5"
     },
     "limited": false,
     "dist": false,
@@ -3775,10 +3775,10 @@ const STUDENTS = [
     ],
     "note": "생존이 핵심 — 강화 패시브(생존/방어)를 우선, 그 다음 EX",
     "rec": {
-      "passive": "7",
-      "sub": "7",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "7",
+      "sub": "7"
     },
     "limited": false,
     "dist": false,
@@ -3827,10 +3827,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "1",
-      "sub": "4",
       "ex": "5",
-      "normal": "4"
+      "normal": "4",
+      "passive": "1",
+      "sub": "4"
     },
     "limited": false,
     "dist": false,
@@ -3880,10 +3880,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "5",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "7",
+      "sub": "5"
     },
     "limited": true,
     "dist": false,
@@ -3932,10 +3932,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "M",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -3984,10 +3984,10 @@ const STUDENTS = [
     ],
     "note": "EX 화력 위주 — 활용 빈도에 따라 나머지 스킬 투자",
     "rec": {
-      "passive": "M",
-      "sub": "5",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "M",
+      "sub": "5"
     },
     "limited": false,
     "dist": false,
@@ -4037,10 +4037,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "7",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "7",
+      "sub": "7"
     },
     "limited": false,
     "dist": false,
@@ -4089,10 +4089,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "5",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "7",
+      "sub": "5"
     },
     "limited": false,
     "dist": true,
@@ -4143,10 +4143,10 @@ const STUDENTS = [
     ],
     "note": "회복량 직결 — EX를 최우선으로, 이후 일반/패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "M",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -4195,10 +4195,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "7",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "7",
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
@@ -4249,10 +4249,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
@@ -4302,10 +4302,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "M",
-      "sub": "7",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "M",
+      "sub": "7"
     },
     "limited": false,
     "dist": false,
@@ -4354,10 +4354,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
@@ -4408,10 +4408,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "7",
       "ex": "3",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "7"
     },
     "limited": false,
     "dist": true,
@@ -4463,10 +4463,10 @@ const STUDENTS = [
     ],
     "note": "EX 화력 위주 — 활용 빈도에 따라 나머지 스킬 투자",
     "rec": {
-      "passive": "7",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "7",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -4515,10 +4515,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "1",
-      "sub": "M",
       "ex": "5",
-      "normal": "1"
+      "normal": "1",
+      "passive": "1",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -4568,10 +4568,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "4",
-      "sub": "4",
       "ex": "3",
-      "normal": "7"
+      "normal": "7",
+      "passive": "4",
+      "sub": "4"
     },
     "limited": false,
     "dist": false,
@@ -4620,10 +4620,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "4",
-      "sub": "4",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "4",
+      "sub": "4"
     },
     "limited": false,
     "dist": false,
@@ -4673,10 +4673,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "4",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "M",
+      "sub": "4"
     },
     "limited": false,
     "dist": false,
@@ -4726,10 +4726,10 @@ const STUDENTS = [
     ],
     "note": "생존이 핵심 — 강화 패시브(생존/방어)를 우선, 그 다음 EX",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -4776,10 +4776,10 @@ const STUDENTS = [
     ],
     "note": "생존이 핵심 — 강화 패시브(생존/방어)를 우선, 그 다음 EX",
     "rec": {
-      "passive": "7",
-      "sub": "7",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "7",
+      "sub": "7"
     },
     "limited": false,
     "dist": false,
@@ -4829,10 +4829,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "7",
-      "sub": "M",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -4882,10 +4882,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "M",
-      "sub": "7",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "7"
     },
     "limited": false,
     "dist": false,
@@ -4934,10 +4934,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -4986,10 +4986,10 @@ const STUDENTS = [
     ],
     "note": "EX 화력 위주 — 활용 빈도에 따라 나머지 스킬 투자",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -5038,10 +5038,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": true,
@@ -5091,10 +5091,10 @@ const STUDENTS = [
     ],
     "note": "생존이 핵심 — 강화 패시브(생존/방어)를 우선, 그 다음 EX",
     "rec": {
-      "passive": "7",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "7",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -5141,10 +5141,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "7",
-      "sub": "7",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "7"
     },
     "limited": false,
     "dist": false,
@@ -5193,10 +5193,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "7",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -5246,10 +5246,10 @@ const STUDENTS = [
     ],
     "note": "생존이 핵심 — 강화 패시브(생존/방어)를 우선, 그 다음 EX",
     "rec": {
-      "passive": "4",
-      "sub": "7",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "4",
+      "sub": "7"
     },
     "limited": false,
     "dist": false,
@@ -5297,10 +5297,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -5350,10 +5350,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -5403,10 +5403,10 @@ const STUDENTS = [
     ],
     "note": "EX 화력 위주 — 활용 빈도에 따라 나머지 스킬 투자",
     "rec": {
-      "passive": "7",
-      "sub": "M",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "M"
     },
     "limited": false,
     "dist": true,
@@ -5456,10 +5456,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
@@ -5509,10 +5509,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "7",
+      "sub": "M"
     },
     "limited": false,
     "dist": true,
@@ -5563,10 +5563,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
@@ -5617,10 +5617,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "5",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "7",
+      "sub": "5"
     },
     "limited": true,
     "dist": false,
@@ -5671,10 +5671,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -5723,10 +5723,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "7",
-      "sub": "M",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -5775,10 +5775,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -5825,10 +5825,10 @@ const STUDENTS = [
     ],
     "note": "회복량 직결 — EX를 최우선으로, 이후 일반/패시브 M",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -5877,10 +5877,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -5927,10 +5927,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "5",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "7",
+      "sub": "5"
     },
     "limited": false,
     "dist": false,
@@ -5979,10 +5979,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "5",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "M",
+      "sub": "5"
     },
     "limited": false,
     "dist": true,
@@ -6032,10 +6032,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "7",
-      "sub": "M",
       "ex": "3",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -6084,10 +6084,10 @@ const STUDENTS = [
     ],
     "note": "생존이 핵심 — 강화 패시브(생존/방어)를 우선, 그 다음 EX",
     "rec": {
-      "passive": "7",
-      "sub": "7",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "7"
     },
     "limited": true,
     "dist": false,
@@ -6138,10 +6138,10 @@ const STUDENTS = [
     ],
     "note": "회복량 직결 — EX를 최우선으로, 이후 일반/패시브 M",
     "rec": {
-      "passive": "M",
-      "sub": "7",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "M",
+      "sub": "7"
     },
     "limited": true,
     "dist": false,
@@ -6192,10 +6192,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": true,
@@ -6245,10 +6245,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "4"
+      "normal": "4",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -6298,10 +6298,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "5",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "M",
+      "sub": "5"
     },
     "limited": false,
     "dist": false,
@@ -6347,10 +6347,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "4",
-      "sub": "4",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "4",
+      "sub": "4"
     },
     "limited": false,
     "dist": false,
@@ -6397,10 +6397,10 @@ const STUDENTS = [
     ],
     "note": "회복량 직결 — EX를 최우선으로, 이후 일반/패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "5",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "7",
+      "sub": "5"
     },
     "limited": false,
     "dist": false,
@@ -6447,10 +6447,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
@@ -6501,10 +6501,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "M",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
@@ -6554,10 +6554,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "4",
-      "sub": "4",
       "ex": "3",
-      "normal": "4"
+      "normal": "4",
+      "passive": "4",
+      "sub": "4"
     },
     "limited": false,
     "dist": true,
@@ -6607,10 +6607,10 @@ const STUDENTS = [
     ],
     "note": "생존이 핵심 — 강화 패시브(생존/방어)를 우선, 그 다음 EX",
     "rec": {
-      "passive": "7",
-      "sub": "7",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "7"
     },
     "limited": false,
     "dist": false,
@@ -6657,10 +6657,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
@@ -6710,10 +6710,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "7",
-      "sub": "7",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "7"
     },
     "limited": false,
     "dist": false,
@@ -6762,10 +6762,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "7",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "7",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -6814,10 +6814,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -6868,10 +6868,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
@@ -6922,10 +6922,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
@@ -6977,10 +6977,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "7",
-      "sub": "7",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "7"
     },
     "limited": false,
     "dist": false,
@@ -7029,10 +7029,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -7082,10 +7082,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "4",
-      "sub": "M",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "4",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -7134,10 +7134,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -7184,10 +7184,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -7236,10 +7236,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -7289,10 +7289,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "7",
-      "sub": "M",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "M"
     },
     "limited": false,
     "dist": true,
@@ -7343,10 +7343,10 @@ const STUDENTS = [
     ],
     "note": "생존이 핵심 — 강화 패시브(생존/방어)를 우선, 그 다음 EX",
     "rec": {
-      "passive": "7",
-      "sub": "M",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -7393,10 +7393,10 @@ const STUDENTS = [
     ],
     "note": "회복량 직결 — EX를 최우선으로, 이후 일반/패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "7",
       "ex": "5",
-      "normal": "4"
+      "normal": "4",
+      "passive": "7",
+      "sub": "7"
     },
     "limited": false,
     "dist": false,
@@ -7446,10 +7446,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -7498,10 +7498,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "7",
-      "sub": "M",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -7552,10 +7552,10 @@ const STUDENTS = [
     ],
     "note": "생존이 핵심 — 강화 패시브(생존/방어)를 우선, 그 다음 EX",
     "rec": {
-      "passive": "7",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "7",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -7604,10 +7604,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -7657,10 +7657,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "7",
-      "sub": "M",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "M"
     },
     "limited": false,
     "dist": true,
@@ -7710,10 +7710,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -7761,10 +7761,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "4",
-      "sub": "4",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "4",
+      "sub": "4"
     },
     "limited": true,
     "dist": false,
@@ -7814,10 +7814,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
@@ -7870,10 +7870,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "7",
-      "sub": "M",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "M"
     },
     "limited": false,
     "dist": true,
@@ -7924,10 +7924,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
@@ -7978,10 +7978,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "4",
-      "sub": "7",
       "ex": "5",
-      "normal": "4"
+      "normal": "4",
+      "passive": "4",
+      "sub": "7"
     },
     "limited": false,
     "dist": false,
@@ -8030,10 +8030,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -8084,10 +8084,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -8136,10 +8136,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "7",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "M",
+      "sub": "7"
     },
     "limited": false,
     "dist": false,
@@ -8189,10 +8189,10 @@ const STUDENTS = [
     ],
     "note": "회복량 직결 — EX를 최우선으로, 이후 일반/패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "5",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "7",
+      "sub": "5"
     },
     "limited": false,
     "dist": false,
@@ -8241,10 +8241,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -8293,10 +8293,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -8345,10 +8345,10 @@ const STUDENTS = [
     ],
     "note": "회복량 직결 — EX를 최우선으로, 이후 일반/패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "M",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -8395,10 +8395,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
@@ -8448,10 +8448,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "5",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "7",
+      "sub": "5"
     },
     "limited": true,
     "dist": false,
@@ -8501,10 +8501,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": true,
@@ -8554,10 +8554,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -8606,10 +8606,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -8658,10 +8658,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -8710,10 +8710,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "7",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "7"
     },
     "limited": false,
     "dist": false,
@@ -8762,10 +8762,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "M",
-      "sub": "1",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "M",
+      "sub": "1"
     },
     "limited": false,
     "dist": false,
@@ -8813,10 +8813,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "1",
-      "sub": "1",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "1",
+      "sub": "1"
     },
     "limited": false,
     "dist": false,
@@ -8866,10 +8866,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "4",
-      "sub": "1",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "4",
+      "sub": "1"
     },
     "limited": true,
     "dist": false,
@@ -8920,10 +8920,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "1",
-      "sub": "1",
       "ex": "5",
-      "normal": "1"
+      "normal": "1",
+      "passive": "1",
+      "sub": "1"
     },
     "limited": false,
     "dist": true,
@@ -8974,10 +8974,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
@@ -9028,10 +9028,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
@@ -9082,10 +9082,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -9134,10 +9134,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "1",
-      "sub": "1",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "1",
+      "sub": "1"
     },
     "limited": false,
     "dist": false,
@@ -9186,10 +9186,10 @@ const STUDENTS = [
     ],
     "note": "EX 화력 위주 — 활용 빈도에 따라 나머지 스킬 투자",
     "rec": {
-      "passive": "7",
-      "sub": "M",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -9239,10 +9239,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -9292,10 +9292,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "M",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -9344,10 +9344,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
@@ -9399,10 +9399,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
@@ -9454,10 +9454,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "7",
-      "sub": "4",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "7",
+      "sub": "4"
     },
     "limited": false,
     "dist": true,
@@ -9507,10 +9507,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -9559,10 +9559,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -9613,10 +9613,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -9665,10 +9665,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "7",
-      "sub": "M",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -9718,10 +9718,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "M",
-      "sub": "7",
       "ex": "5",
-      "normal": "4"
+      "normal": "4",
+      "passive": "M",
+      "sub": "7"
     },
     "limited": false,
     "dist": false,
@@ -9770,10 +9770,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -9822,10 +9822,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "4",
-      "sub": "M",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "4",
+      "sub": "M"
     },
     "limited": false,
     "dist": true,
@@ -9874,10 +9874,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "5",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "M",
+      "sub": "5"
     },
     "limited": false,
     "dist": false,
@@ -9924,10 +9924,10 @@ const STUDENTS = [
     ],
     "note": "생존이 핵심 — 강화 패시브(생존/방어)를 우선, 그 다음 EX",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
@@ -9979,10 +9979,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
@@ -10033,10 +10033,10 @@ const STUDENTS = [
     ],
     "note": "회복량 직결 — EX를 최우선으로, 이후 일반/패시브 M",
     "rec": {
-      "passive": "4",
-      "sub": "7",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "4",
+      "sub": "7"
     },
     "limited": false,
     "dist": true,
@@ -10085,10 +10085,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
@@ -10139,10 +10139,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
@@ -10193,10 +10193,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -10246,10 +10246,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "M",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -10296,10 +10296,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "4",
-      "sub": "M",
       "ex": "5",
-      "normal": "4"
+      "normal": "4",
+      "passive": "4",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -10346,10 +10346,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "4"
+      "normal": "4",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -10399,10 +10399,10 @@ const STUDENTS = [
     ],
     "note": "회복량 직결 — EX를 최우선으로, 이후 일반/패시브 M",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
@@ -10454,10 +10454,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
@@ -10507,10 +10507,10 @@ const STUDENTS = [
     ],
     "note": "생존이 핵심 — 강화 패시브(생존/방어)를 우선, 그 다음 EX",
     "rec": {
-      "passive": "7",
-      "sub": "M",
       "ex": "1",
-      "normal": "M"
+      "normal": "M",
+      "passive": "7",
+      "sub": "M"
     },
     "limited": false,
     "dist": true,
@@ -10559,10 +10559,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -10611,10 +10611,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -10664,10 +10664,10 @@ const STUDENTS = [
     ],
     "note": "생존이 핵심 — 강화 패시브(생존/방어)를 우선, 그 다음 EX",
     "rec": {
-      "passive": "M",
-      "sub": "7",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "M",
+      "sub": "7"
     },
     "limited": false,
     "dist": false,
@@ -10716,10 +10716,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -10769,10 +10769,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "M",
-      "sub": "1",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "1"
     },
     "limited": true,
     "dist": false,
@@ -10823,10 +10823,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "M",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
@@ -10877,10 +10877,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": true,
@@ -10930,10 +10930,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
@@ -10982,10 +10982,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
@@ -11036,10 +11036,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -11090,10 +11090,10 @@ const STUDENTS = [
     ],
     "note": "회복량 직결 — EX를 최우선으로, 이후 일반/패시브 M",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -11143,10 +11143,10 @@ const STUDENTS = [
     ],
     "note": "생존이 핵심 — 강화 패시브(생존/방어)를 우선, 그 다음 EX",
     "rec": {
-      "passive": "M",
-      "sub": "7",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "M",
+      "sub": "7"
     },
     "limited": false,
     "dist": false,
@@ -11195,10 +11195,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -11248,10 +11248,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -11299,10 +11299,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -11352,10 +11352,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -11405,10 +11405,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
@@ -11461,10 +11461,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
@@ -11515,10 +11515,10 @@ const STUDENTS = [
     ],
     "note": "생존이 핵심 — 강화 패시브(생존/방어)를 우선, 그 다음 EX",
     "rec": {
-      "passive": "1",
-      "sub": "1",
       "ex": "1",
-      "normal": "1"
+      "normal": "1",
+      "passive": "1",
+      "sub": "1"
     },
     "limited": false,
     "dist": true,
@@ -11567,10 +11567,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -11620,10 +11620,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -11672,10 +11672,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -11724,10 +11724,10 @@ const STUDENTS = [
     ],
     "note": "회복량 직결 — EX를 최우선으로, 이후 일반/패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "7",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "7"
     },
     "limited": false,
     "dist": false,
@@ -11776,10 +11776,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -11828,10 +11828,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -11880,10 +11880,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "M",
       "ex": "1",
-      "normal": "M"
+      "normal": "M",
+      "passive": "7",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -11930,10 +11930,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "M",
-      "sub": "7",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "M",
+      "sub": "7"
     },
     "limited": true,
     "dist": false,
@@ -11983,10 +11983,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
@@ -12037,10 +12037,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "7",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "7"
     },
     "limited": false,
     "dist": true,
@@ -12089,10 +12089,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
@@ -12143,10 +12143,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
@@ -12197,10 +12197,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -12249,10 +12249,10 @@ const STUDENTS = [
     ],
     "note": "생존이 핵심 — 강화 패시브(생존/방어)를 우선, 그 다음 EX",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -12302,10 +12302,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -12354,10 +12354,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -12406,10 +12406,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "M",
-      "sub": "7",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "7"
     },
     "limited": false,
     "dist": false,
@@ -12458,10 +12458,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -12510,10 +12510,10 @@ const STUDENTS = [
     ],
     "note": "회복량 직결 — EX를 최우선으로, 이후 일반/패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "7",
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
@@ -12564,10 +12564,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
@@ -12618,10 +12618,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": true,
@@ -12669,10 +12669,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -12721,10 +12721,10 @@ const STUDENTS = [
     ],
     "note": "회복량 직결 — EX를 최우선으로, 이후 일반/패시브 M",
     "rec": {
-      "passive": "M",
-      "sub": "1",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "1"
     },
     "limited": false,
     "dist": false,
@@ -12771,10 +12771,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -12824,10 +12824,10 @@ const STUDENTS = [
     ],
     "note": "생존이 핵심 — 강화 패시브(생존/방어)를 우선, 그 다음 EX",
     "rec": {
-      "passive": "7",
-      "sub": "7",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "7"
     },
     "limited": false,
     "dist": false,
@@ -12876,10 +12876,10 @@ const STUDENTS = [
     ],
     "note": "회복량 직결 — EX를 최우선으로, 이후 일반/패시브 M",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -12929,10 +12929,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
@@ -12984,10 +12984,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "7",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "7"
     },
     "limited": false,
     "dist": true,
@@ -13038,10 +13038,10 @@ const STUDENTS = [
     ],
     "note": "EX 화력 위주 — 활용 빈도에 따라 나머지 스킬 투자",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
@@ -13091,10 +13091,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
@@ -13145,10 +13145,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
@@ -13198,10 +13198,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -13250,10 +13250,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "M",
-      "sub": "M",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
@@ -13302,10 +13302,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "7",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "7",
+      "sub": "7"
     },
     "limited": false,
     "dist": false,
@@ -13354,10 +13354,10 @@ const STUDENTS = [
     ],
     "note": "생존이 핵심 — 강화 패시브(생존/방어)를 우선, 그 다음 EX",
     "rec": {
-      "passive": "M",
-      "sub": "5",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "M",
+      "sub": "5"
     },
     "limited": false,
     "dist": false,
@@ -13404,10 +13404,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "5",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "7",
+      "sub": "5"
     },
     "limited": false,
     "dist": false,
@@ -13454,10 +13454,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "5",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "M",
+      "sub": "5"
     },
     "limited": false,
     "dist": false,
@@ -13504,10 +13504,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "5",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "7",
+      "sub": "5"
     },
     "limited": true,
     "dist": false,
@@ -13554,10 +13554,10 @@ const STUDENTS = [
     ],
     "note": "생존이 핵심 — 강화 패시브(생존/방어)를 우선, 그 다음 EX",
     "rec": {
-      "passive": "M",
-      "sub": "5",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "M",
+      "sub": "5"
     },
     "limited": true,
     "dist": false,
@@ -13604,10 +13604,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "5",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "M",
+      "sub": "5"
     },
     "limited": false,
     "dist": true,
@@ -13654,10 +13654,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "5",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "7",
+      "sub": "5"
     },
     "limited": false,
     "dist": false,
@@ -13704,10 +13704,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "5",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "M",
+      "sub": "5"
     },
     "limited": false,
     "dist": false,
@@ -13754,10 +13754,10 @@ const STUDENTS = [
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
-      "passive": "M",
-      "sub": "5",
       "ex": "5",
-      "normal": "7"
+      "normal": "7",
+      "passive": "M",
+      "sub": "5"
     },
     "limited": false,
     "dist": false,
@@ -13804,10 +13804,10 @@ const STUDENTS = [
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
-      "passive": "7",
-      "sub": "5",
       "ex": "5",
-      "normal": "M"
+      "normal": "M",
+      "passive": "7",
+      "sub": "5"
     },
     "limited": false,
     "dist": false,
