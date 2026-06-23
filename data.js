@@ -13262,7 +13262,7 @@ const STUDENTS = [
     "tips": [
       "전무 2 공격력 증가"
     ],
-    "rating": "♥♥♥♥♡"
+    "rating": "♥♥♥♥"
   },
   {
     "id": 20056,
