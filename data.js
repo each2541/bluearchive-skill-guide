@@ -1,4 +1,4 @@
-/* 자동 생성 데이터 — SchaleDB(schaledb.com) 한국 서버 기준. 출시 학생 263명. */
+/* 자동 생성 데이터 — SchaleDB(schaledb.com) 한국 서버 기준. 출시 학생 265명. */
 const STUDENTS = [
   {
     "id": 10000,
@@ -13812,6 +13812,106 @@ const STUDENTS = [
     "limited": false,
     "dist": false,
     "isNew": false,
+    "tip": "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
+    "tips": null,
+    "rating": null
+  },
+  {
+    "id": 10143,
+    "name": "슌(수영복)",
+    "school": "산해경",
+    "rarity": 3,
+    "atk": "sonic",
+    "atkLabel": "진동",
+    "armor": "경장갑",
+    "role": "딜러",
+    "position": "후열",
+    "squad": "스트라이커",
+    "img": "https://schaledb.com/images/student/collection/10143.webp",
+    "icon": "https://schaledb.com/images/student/icon/10143.webp",
+    "ex": {
+      "name": "돌아갈 때까지가 여행이랍니다?",
+      "desc": "적 1인에게 공격력 629% → 1195% 대미지/ 획득(9초간), EX 스킬 즉시 1회 드로우/ 을 보유한 동안 '주목해 주세요?'로 스킬 변경, 해제 시 EX 스킬 카드를 덱 최후미로 이동",
+      "cost": 3
+    },
+    "normal": {
+      "name": "그러면 안 돼요!",
+      "desc": "40초마다 적 1인에게 공격력 444% → 711% 대미지"
+    },
+    "passive": {
+      "name": "휴양지의 교관님",
+      "desc": "ATK 14% → 26.6% 증가"
+    },
+    "sub": {
+      "name": "매화원의 가르침",
+      "desc": "획득 시 및 이후 3초마다 개화(최대 3단계)/ '주목해 주세요?' 사용 시 을 소모하여 단계당 대미지 9.8% → 18.6% 증가(3초간)"
+    },
+    "order": [
+      "EX",
+      "강화",
+      "기본",
+      "서브"
+    ],
+    "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
+    "rec": {
+      "ex": "5",
+      "normal": "7",
+      "passive": "M",
+      "sub": "5"
+    },
+    "limited": false,
+    "dist": false,
+    "isNew": true,
+    "tip": "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
+    "tips": null,
+    "rating": null
+  },
+  {
+    "id": 10145,
+    "name": "키사키(수영복)",
+    "school": "산해경",
+    "rarity": 3,
+    "atk": "sonic",
+    "atkLabel": "진동",
+    "armor": "탄력장갑",
+    "role": "서포터",
+    "position": "전열",
+    "squad": "스트라이커",
+    "img": "https://schaledb.com/images/student/collection/10145.webp",
+    "icon": "https://schaledb.com/images/student/icon/10145.webp",
+    "ex": {
+      "name": "선언: 금일휴업",
+      "desc": "자신을 제외하고 편성한 아군 스트라이커 학생 중 가장 가까운 3인의 CostChange 1 감소(EX 스킬 사용 1회까지)/ 자신의 CostRegen 856 → 1625 증가(5초간)/ 자신의 다음 2회의 EX 스킬을 '시행: 튼튼체조'로 변경",
+      "cost": 2
+    },
+    "normal": {
+      "name": "결정: 강제집행",
+      "desc": "45초마다 적 1인의 18.9% → 36% 감소 (32초간)/ 공격력 218% → 414% 대미지"
+    },
+    "passive": {
+      "name": "감사: 현장점검",
+      "desc": "일반 공격 사정거리 100, 최대 HP 11.2% → 21.2% 증가"
+    },
+    "sub": {
+      "name": "휴양: 원기회복",
+      "desc": "아군이 치명 공격 200회 성공 시 자신에게 치유력 97.5% → 185% 회복"
+    },
+    "order": [
+      "EX",
+      "기본",
+      "강화",
+      "서브"
+    ],
+    "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
+    "rec": {
+      "ex": "5",
+      "normal": "M",
+      "passive": "7",
+      "sub": "5"
+    },
+    "limited": false,
+    "dist": false,
+    "isNew": true,
     "tip": "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
     "tips": null,
     "rating": null
