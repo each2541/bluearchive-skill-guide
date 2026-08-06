@@ -1,4 +1,4 @@
-/* 자동 생성 데이터 — SchaleDB(schaledb.com) 한국 서버 기준. 출시 학생 265명. */
+/* 자동 생성 데이터 — SchaleDB(schaledb.com) 한국 서버 기준. 출시 학생 269명. */
 const STUDENTS = [
   {
     "id": 10000,
@@ -13867,6 +13867,56 @@ const STUDENTS = [
     "rating": null
   },
   {
+    "id": 10144,
+    "name": "슈에링(수영복)",
+    "school": "산해경",
+    "rarity": 3,
+    "atk": "sonic",
+    "atkLabel": "진동",
+    "armor": "경장갑",
+    "role": "딜러",
+    "position": "후열",
+    "squad": "스트라이커",
+    "img": "https://schaledb.com/images/student/collection/10144.webp",
+    "icon": "https://schaledb.com/images/student/icon/10144.webp",
+    "ex": {
+      "name": "안아 주세요!",
+      "desc": "적 1인에게 공격력 769% → 1462% 대미지/ 사용할 때 마다 이번 전투 중 '안아 주세요!'의 대미지가 공격력 153% → 290%만큼 감소합니다(최대 3회까지 중첩)",
+      "cost": 5
+    },
+    "normal": {
+      "name": "집중해야 한답니다!",
+      "desc": "전투 시작 시, 편성한 아군 학생 1명당 스킬 코스트 0.37 → 0.71 획득(최대 6명까지)(전투 당 1회)/ 단, 부대에 자신 외에도 전투 시작 시 스킬 코스트를 획득하는 학생이 편성된 경우 이 스킬로 스킬 코스트를 획득하지 않습니다."
+    },
+    "passive": {
+      "name": "어린아이의 활력",
+      "desc": "치명 발생치 14% → 26.6% 증가"
+    },
+    "sub": {
+      "name": "휴양지의 즐거움",
+      "desc": "EX 스킬 사용 중 EnhanceSonicRate 41.4% → 78.8% 가산"
+    },
+    "order": [
+      "EX",
+      "강화",
+      "기본",
+      "서브"
+    ],
+    "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
+    "rec": {
+      "ex": "5",
+      "normal": "7",
+      "passive": "M",
+      "sub": "5"
+    },
+    "limited": false,
+    "dist": false,
+    "isNew": true,
+    "tip": "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
+    "tips": null,
+    "rating": null
+  },
+  {
     "id": 10145,
     "name": "키사키(수영복)",
     "school": "산해경",
@@ -13913,6 +13963,156 @@ const STUDENTS = [
     "dist": false,
     "isNew": false,
     "tip": "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
+    "tips": null,
+    "rating": null
+  },
+  {
+    "id": 10146,
+    "name": "마코토(수영복)",
+    "school": "게헨나",
+    "rarity": 3,
+    "atk": "mystic",
+    "atkLabel": "신비",
+    "armor": "중장갑",
+    "role": "딜러",
+    "position": "후열",
+    "squad": "스트라이커",
+    "img": "https://schaledb.com/images/student/collection/10146.webp",
+    "icon": "https://schaledb.com/images/student/icon/10146.webp",
+    "ex": {
+      "name": "머나먼 땅을 향하여!",
+      "desc": "적 1인에게 공격력 145% → 275% 대미지/ 원형범위 내의 적의 수에 따라 범위 내의 적에게 대미지 2명 이하: 공격력 169% → 321% 대미지 3명 이상: 공격력 401% → 762% 대미지",
+      "cost": 6
+    },
+    "normal": {
+      "name": "캡틴, 오 마이 캡틴!",
+      "desc": "전투 시작 시, 그리고 이후 30초마다 ATK 17.5% → 33.2% 증가(25초간)/ 카리스마 상태 부여"
+    },
+    "passive": {
+      "name": "숨은 실력자?",
+      "desc": "ATK 14% → 26.6% 증가"
+    },
+    "sub": {
+      "name": "바다의 무법자",
+      "desc": "치명 발생치 10% → 19.1% 증가/ 카리스마 상태에서 EX 스킬로 공격 시 특수장갑인 대상에게 공격 전 11.4% → 21.8% 감소(21초간)/ 카리스마 상태를 해제"
+    },
+    "order": [
+      "EX",
+      "강화",
+      "기본",
+      "서브"
+    ],
+    "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
+    "rec": {
+      "ex": "5",
+      "normal": "7",
+      "passive": "M",
+      "sub": "5"
+    },
+    "limited": true,
+    "dist": false,
+    "isNew": true,
+    "tip": "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
+    "tips": null,
+    "rating": null
+  },
+  {
+    "id": 10147,
+    "name": "사츠키(수영복)",
+    "school": "게헨나",
+    "rarity": 3,
+    "atk": "sonic",
+    "atkLabel": "진동",
+    "armor": "탄력장갑",
+    "role": "힐러",
+    "position": "중열",
+    "squad": "스트라이커",
+    "img": "https://schaledb.com/images/student/collection/10147.webp",
+    "icon": "https://schaledb.com/images/student/icon/10147.webp",
+    "ex": {
+      "name": "사츠키류 안전 대책!",
+      "desc": "자신을 제외한 아군 1인에게 치유력 164% → 312% 회복/ 자신은 치유력 115% → 150% 회복/ 선크림 1개 획득(선크림은 최대 3개까지 중첩)",
+      "cost": 2
+    },
+    "normal": {
+      "name": "꺄악?! 싫어-!!",
+      "desc": "30초마다 적 1인에게 20.3% → 26.4% 감소(26초간)/ 공격력 197% → 315% 대미지/ 선크림 1개 획득(선크림은 최대 3개까지 중첩)"
+    },
+    "passive": {
+      "name": "케어해줄 테니까",
+      "desc": "회복력 14% → 26.6% 증가"
+    },
+    "sub": {
+      "name": "가서 신나게 놀고 오도록 해",
+      "desc": "선크림 3개 획득 시 자신을 제외한 스트라이커 아군에게 치유력 48.6% → 92.3% 회복 UV차단 부여(30초간), UV차단은 ATK 10.3% → 19.6% 증가 (선크림은 초기화됩니다)"
+    },
+    "order": [
+      "EX",
+      "기본",
+      "강화",
+      "서브"
+    ],
+    "note": "회복량 직결 — EX를 최우선으로, 이후 일반/패시브 M",
+    "rec": {
+      "ex": "5",
+      "normal": "M",
+      "passive": "7",
+      "sub": "5"
+    },
+    "limited": true,
+    "dist": false,
+    "isNew": true,
+    "tip": "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
+    "tips": null,
+    "rating": null
+  },
+  {
+    "id": 26016,
+    "name": "치아키(수영복)",
+    "school": "게헨나",
+    "rarity": 1,
+    "atk": "pierce",
+    "atkLabel": "관통",
+    "armor": "중장갑",
+    "role": "딜러",
+    "position": "후열",
+    "squad": "스페셜",
+    "img": "https://schaledb.com/images/student/collection/26016.webp",
+    "icon": "https://schaledb.com/images/student/icon/26016.webp",
+    "ex": {
+      "name": "흔들흔들~ 흔들흔들!",
+      "desc": "2발의 탄두를 발사하여 가장 가까운 적에게 각각 공격력 530% → 1008%, 267% → 508% 대미지 (이 공격은 적의 Shield을 관통)",
+      "cost": 4
+    },
+    "normal": {
+      "name": "와~ 대단하네요!",
+      "desc": "35초마다 적 1인의 14% → 26.7% 감소(27초간)"
+    },
+    "passive": {
+      "name": "현장보도입니다!",
+      "desc": "ATK 14% → 26.6% 증가"
+    },
+    "sub": {
+      "name": "전방에 특종 발견!",
+      "desc": "아군의 EnhancePierceRate 15.9% → 30.2% 가산"
+    },
+    "order": [
+      "EX",
+      "강화",
+      "기본",
+      "서브"
+    ],
+    "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
+    "rec": {
+      "ex": "5",
+      "normal": "7",
+      "passive": "M",
+      "sub": "5"
+    },
+    "limited": false,
+    "dist": true,
+    "isNew": true,
+    "tip": "이벤트 배포 학생 — 모집(뽑기)으로는 얻을 수 없고 이벤트·상점에서 획득합니다.",
     "tips": null,
     "rating": null
   }
