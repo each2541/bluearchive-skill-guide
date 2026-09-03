@@ -14261,7 +14261,7 @@ const STUDENTS = [
     },
     "limited": false,
     "dist": false,
-    "isNew": true,
+    "isNew": false,
     "tip": "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
     "tips": null,
     "rating": null
@@ -14311,7 +14311,7 @@ const STUDENTS = [
     },
     "limited": false,
     "dist": false,
-    "isNew": true,
+    "isNew": false,
     "tip": "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
     "tips": null,
     "rating": null
