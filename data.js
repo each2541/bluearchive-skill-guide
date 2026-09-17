@@ -1,4 +1,4 @@
-/* 자동 생성 데이터 — SchaleDB(schaledb.com) 한국 서버 기준. 출시 학생 273명. */
+/* 자동 생성 데이터 — SchaleDB(schaledb.com) 한국 서버 기준. 출시 학생 274명. */
 const STUDENTS = [
   {
     "id": 10000,
@@ -14231,7 +14231,7 @@ const STUDENTS = [
     "icon": "https://schaledb.com/images/student/icon/10149.webp",
     "ex": {
       "name": "다이브, 스타트!",
-      "desc": "자신을 제외한 아군 1인에게 주는 EnhanceExDamageRate 36.4% → 69.2% 가산(15초간) (대상이 '다시 수면으로!'의 효과 보유 시 '다시 수면으로!'의 효과 해제)/ 잠수 상태가 되어 '다시 수면으로!'로 스킬 변경",
+      "desc": "자신을 제외한 아군 1인에게 주는 EnhanceExDamageRate 36.4% → 69.2% 가산(15초간) (대상이 '다시 수면으로!'의 효과 보유 시 '다시 수면으로!'의 효과 해제)/ 상태가 되어 '다시 수면으로!'로 스킬 변경",
       "cost": 2
     },
     "normal": {
@@ -14244,7 +14244,7 @@ const STUDENTS = [
     },
     "sub": {
       "name": "호흡 통제",
-      "desc": "최대 HP 13.4% → 25.5% 증가, EnhanceBasicsDamageRate 16.8% → 31.9% 가산/ 안전 인증을 보유하지 않은 딜러 아군에게 EX스킬 사용 시 대상에게 안전 인증 부여 및 해당 EX스킬의 효과 지속시간을 3배로 증가(이미 안전 인증이 부여된 다른 아군의 안전 인증은 모두 해제)/ 잠수 상태에서 자신이 가하는 모든 대미지를 EX 대미지 타입으로 변경하고 주는 EnhanceExDamageRate 16.8% → 31.9% 가산"
+      "desc": "최대 HP 13.4% → 25.5% 증가, EnhanceBasicsDamageRate 16.8% → 31.9% 가산/ 을 보유하지 않은 딜러 아군에게 EX스킬 사용 시 대상에게 부여 및 해당 EX스킬의 효과 지속시간을 3배로 증가(이미 이 부여된 다른 아군의 은 모두 해제)/ 상태에서 자신이 가하는 모든 대미지를 EX 대미지 타입으로 변경하고 주는 EnhanceExDamageRate 16.8% → 31.9% 가산"
     },
     "order": [
       "EX",
@@ -14281,7 +14281,7 @@ const STUDENTS = [
     "icon": "https://schaledb.com/images/student/icon/10150.webp",
     "ex": {
       "name": "수중용 플레셰트 장전",
-      "desc": "치유력 107% → 195% 회복/ 즉시 재장전/ 일반 공격이 공격력 120% 대미지를 주도록 변경(재장전 1회까지)",
+      "desc": "치유력 107% → 195% 회복/ 즉시 재장전/ 이 공격력 120% 대미지를 주도록 변경(재장전 1회까지)",
       "cost": 2
     },
     "normal": {
@@ -14294,7 +14294,7 @@ const STUDENTS = [
     },
     "sub": {
       "name": "리바이어던",
-      "desc": "공격 시 30% 확률로 6.5% → 12.3% 감소(19초간)(쿨타임 6초)/ EX 스킬로 일반 공격이 변경된 상태에서 일반 공격 1회 마다 치유력 21.6% → 34.5% 회복"
+      "desc": "공격 시 30% 확률로 6.5% → 12.3% 감소(19초간)(쿨타임 6초)/ EX 스킬로 이 변경된 상태에서 일반 공격 1회 마다 치유력 21.6% → 34.5% 회복"
     },
     "order": [
       "강화",
@@ -14312,6 +14312,56 @@ const STUDENTS = [
     "limited": false,
     "dist": false,
     "isNew": false,
+    "tip": "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
+    "tips": null,
+    "rating": null
+  },
+  {
+    "id": 20061,
+    "name": "카스미(수영복)",
+    "school": "게헨나",
+    "rarity": 3,
+    "atk": "pierce",
+    "atkLabel": "관통",
+    "armor": "특수장갑",
+    "role": "서포터",
+    "position": "후열",
+    "squad": "스페셜",
+    "img": "https://schaledb.com/images/student/collection/20061.webp",
+    "icon": "https://schaledb.com/images/student/icon/20061.webp",
+    "ex": {
+      "name": "비트 더 드릴 비트",
+      "desc": "적 1인에게 공격력 331% → 629% 대미지/ 대상이 중장갑인 경우 공격 전 받는 특효 대미지량 21.6% → 41% 가산(28초간)/ 이후 원형범위 내의 적에게 공격력 86.7% → 164% 대미지",
+      "cost": 3
+    },
+    "normal": {
+      "name": "'특별'한 선물",
+      "desc": "35초 마다 적 1인에게 공격력 126% → 240% 대미지/ 대상이 중장갑인 경우 공격 전 받는 특효 대미지량 10% → 19.1% 가산(27초간)"
+    },
+    "passive": {
+      "name": "온천 프리크",
+      "desc": "ATK 14% → 26.6% 증가"
+    },
+    "sub": {
+      "name": "왜들 그리 진지해?",
+      "desc": "아군의 EnhancePierceRate 15.9% → 30.2% 가산"
+    },
+    "order": [
+      "EX",
+      "기본",
+      "강화",
+      "서브"
+    ],
+    "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
+    "rec": {
+      "ex": "5",
+      "normal": "M",
+      "passive": "7",
+      "sub": "5"
+    },
+    "limited": false,
+    "dist": false,
+    "isNew": true,
     "tip": "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
     "tips": null,
     "rating": null
