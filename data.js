@@ -1,4 +1,4 @@
-/* 자동 생성 데이터 — SchaleDB(schaledb.com) 한국 서버 기준. 출시 학생 274명. */
+/* 자동 생성 데이터 — SchaleDB(schaledb.com) 한국 서버 기준. 출시 학생 276명. */
 const STUDENTS = [
   {
     "id": 10000,
@@ -14331,12 +14331,12 @@ const STUDENTS = [
     "icon": "https://schaledb.com/images/student/icon/20061.webp",
     "ex": {
       "name": "비트 더 드릴 비트",
-      "desc": "적 1인에게 공격력 331% → 629% 대미지/ 대상이 중장갑인 경우 공격 전 받는 특효 대미지량 21.6% → 41% 가산(28초간)/ 이후 원형범위 내의 적에게 공격력 86.7% → 164% 대미지",
+      "desc": "적 1인에게 공격력 331% → 629% 대미지/ 대상이 중장갑인 경우 공격 전 21.6% → 41% 가산(28초간)/ 이후 원형범위 내의 적에게 공격력 86.7% → 164% 대미지",
       "cost": 3
     },
     "normal": {
       "name": "'특별'한 선물",
-      "desc": "35초 마다 적 1인에게 공격력 126% → 240% 대미지/ 대상이 중장갑인 경우 공격 전 받는 특효 대미지량 10% → 19.1% 가산(27초간)"
+      "desc": "35초 마다 적 1인에게 공격력 126% → 240% 대미지/ 대상이 중장갑인 경우 공격 전 10% → 19.1% 가산(27초간)"
     },
     "passive": {
       "name": "온천 프리크",
@@ -14362,6 +14362,106 @@ const STUDENTS = [
     "limited": false,
     "dist": false,
     "isNew": false,
+    "tip": "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
+    "tips": null,
+    "rating": null
+  },
+  {
+    "id": 10151,
+    "name": "안나",
+    "school": "붉은겨울",
+    "rarity": 3,
+    "atk": "pierce",
+    "atkLabel": "관통",
+    "armor": "경장갑",
+    "role": "딜러",
+    "position": "중열",
+    "squad": "스트라이커",
+    "img": "https://schaledb.com/images/student/collection/10151.webp",
+    "icon": "https://schaledb.com/images/student/icon/10151.webp",
+    "ex": {
+      "name": "이걸 봐주세요!",
+      "desc": "적 1인에게 공격력 1176% → 2235% 대미지/ 4개 보유 시 이 공격을 확정 치명으로 변경",
+      "cost": 6
+    },
+    "normal": {
+      "name": "이건 훈장감이군요!",
+      "desc": "아군이 적 8명 처치 시 1개 획득(전투 당 4회)/ 은 최대 4개까지 중첩, 1개당 자신의 대미지 10% → 19.1% 증가"
+    },
+    "passive": {
+      "name": "담금질 개시!",
+      "desc": "치명 발생치 14% → 26.6% 증가"
+    },
+    "sub": {
+      "name": "좋은 느낌이에요!",
+      "desc": "50초 마다 EnhancePierceRate 12.5% → 23.8% 가산 (최대 3회까지 중첩)"
+    },
+    "order": [
+      "EX",
+      "강화",
+      "기본",
+      "서브"
+    ],
+    "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
+    "rec": {
+      "ex": "5",
+      "normal": "7",
+      "passive": "M",
+      "sub": "5"
+    },
+    "limited": false,
+    "dist": false,
+    "isNew": true,
+    "tip": "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
+    "tips": null,
+    "rating": null
+  },
+  {
+    "id": 20062,
+    "name": "에리나",
+    "school": "붉은겨울",
+    "rarity": 3,
+    "atk": "sonic",
+    "atkLabel": "진동",
+    "armor": "경장갑",
+    "role": "서포터",
+    "position": "후열",
+    "squad": "스페셜",
+    "img": "https://schaledb.com/images/student/collection/20062.webp",
+    "icon": "https://schaledb.com/images/student/icon/20062.webp",
+    "ex": {
+      "name": "먹고 해요~",
+      "desc": "원형범위 내의 아군에게 치유력 117% → 224% Shield(25초간), 해당 Shield을 보유한 아군에게 부여/ 은 ATK 13.9% → 26.5% 증가, '먹고 해요~'의 Shield 소멸 10초 후 해제",
+      "cost": 3
+    },
+    "normal": {
+      "name": "적당~히 해도 괜찮아요~",
+      "desc": "40초마다 스페셜 학생을 제외한 아군 6인에게 ATK 6.7% → 12.8% 증가 (33초간)"
+    },
+    "passive": {
+      "name": "쉬엄쉬엄 해요~",
+      "desc": "회복력 14% → 26.6% 증가"
+    },
+    "sub": {
+      "name": "빡세게 해요~",
+      "desc": "아군의 ATK 9.1% → 17.3% 증가"
+    },
+    "order": [
+      "EX",
+      "기본",
+      "강화",
+      "서브"
+    ],
+    "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
+    "rec": {
+      "ex": "5",
+      "normal": "M",
+      "passive": "7",
+      "sub": "5"
+    },
+    "limited": false,
+    "dist": false,
+    "isNew": true,
     "tip": "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
     "tips": null,
     "rating": null
