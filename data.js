@@ -1,4 +1,4 @@
-/* 자동 생성 데이터 — SchaleDB(schaledb.com) 한국 서버 기준. 출시 학생 276명. */
+/* 자동 생성 데이터 — SchaleDB(schaledb.com) 한국 서버 기준. 출시 학생 277명. */
 const STUDENTS = [
   {
     "id": 10000,
@@ -14462,6 +14462,56 @@ const STUDENTS = [
     "limited": false,
     "dist": false,
     "isNew": false,
+    "tip": "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
+    "tips": null,
+    "rating": null
+  },
+  {
+    "id": 10152,
+    "name": "츠무기",
+    "school": "와일드헌트",
+    "rarity": 3,
+    "atk": "pierce",
+    "atkLabel": "관통",
+    "armor": "특수장갑",
+    "role": "탱커",
+    "position": "전열",
+    "squad": "스트라이커",
+    "img": "https://schaledb.com/images/student/collection/10152.webp",
+    "icon": "https://schaledb.com/images/student/icon/10152.webp",
+    "ex": {
+      "name": "러브 앤 피스!",
+      "desc": "원형범위 내의 적에게 공격력 337% → 640% 대미지, (2.9초 → 5초간)/ 중형 및 소형 적에게 공격력 317% → 603% 추가 대미지/ 이 스킬로 인한 대미지는 치명 공격이 발생하지 않음",
+      "cost": 3
+    },
+    "normal": {
+      "name": "인스피레이션",
+      "desc": "40초마다 치유력 99% → 158% 회복"
+    },
+    "passive": {
+      "name": "데스메탈 정신",
+      "desc": "최대 HP 14% → 26.6% 증가"
+    },
+    "sub": {
+      "name": "평화! 평화! 평화!",
+      "desc": "HIT 173 → 329 증가/ EX 스킬 사용 시 DamagedRatio 17.7% → 33.6% 감소(19초간)"
+    },
+    "order": [
+      "강화",
+      "EX",
+      "기본",
+      "서브"
+    ],
+    "note": "생존이 핵심 — 강화 패시브(생존/방어)를 우선, 그 다음 EX",
+    "rec": {
+      "ex": "5",
+      "normal": "7",
+      "passive": "M",
+      "sub": "5"
+    },
+    "limited": false,
+    "dist": false,
+    "isNew": true,
     "tip": "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
     "tips": null,
     "rating": null
