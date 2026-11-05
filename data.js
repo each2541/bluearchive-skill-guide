@@ -1,4 +1,4 @@
-/* 자동 생성 데이터 — SchaleDB(schaledb.com) 한국 서버 기준. 출시 학생 277명. */
+/* 자동 생성 데이터 — SchaleDB(schaledb.com) 한국 서버 기준. 출시 학생 280명. */
 const STUDENTS = [
   {
     "id": 10000,
@@ -14039,7 +14039,7 @@ const STUDENTS = [
       "desc": "30초마다 적 1인에게 20.3% → 26.4% 감소(26초간)/ 공격력 197% → 315% 대미지/ 1개 획득(은 최대 3개까지 중첩)"
     },
     "passive": {
-      "name": "케어해줄 테니까",
+      "name": "케어해 줄 테니까",
       "desc": "회복력 14% → 26.6% 증가"
     },
     "sub": {
@@ -14513,6 +14513,156 @@ const STUDENTS = [
     "dist": false,
     "isNew": false,
     "tip": "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
+    "tips": null,
+    "rating": null
+  },
+  {
+    "id": 10153,
+    "name": "히후미(레이싱)",
+    "school": "트리니티",
+    "rarity": 3,
+    "atk": "explosion",
+    "atkLabel": "폭발",
+    "armor": "특수장갑",
+    "role": "딜러",
+    "position": "중열",
+    "squad": "스트라이커",
+    "img": "https://schaledb.com/images/student/collection/10153.webp",
+    "icon": "https://schaledb.com/images/student/icon/10153.webp",
+    "ex": {
+      "name": "크루세이더 쨩, 출발하죠!",
+      "desc": "적 1인에게 공격력 643% → 1221% 대미지/ 를 보유한 경우 모두 소모하고 이 공격을 강화하여 소모한 1개당 대미지 0.5배 가산",
+      "cost": 5
+    },
+    "normal": {
+      "name": "2 파운더 철갑탄 장전!",
+      "desc": "32초 마다 적 1인에게 공격력 223% → 425% 대미지/ 대상이 경장갑인 경우 공격 전 받는 특효 대미지량 8.3% → 15.8% 가산(30초간)"
+    },
+    "passive": {
+      "name": "레이서의 근성",
+      "desc": "치명 대미지 14% → 26.6% 증가"
+    },
+    "sub": {
+      "name": "민첩한 레이서",
+      "desc": "자신을 제외한 스트라이커 딜러 아군이 EX 스킬 사용 시 해당 아군에게 치명 대미지 5.7% → 10.9% 증가(7초간)/ 1개 획득(는 최대 4개까지 중첩)"
+    },
+    "order": [
+      "EX",
+      "강화",
+      "기본",
+      "서브"
+    ],
+    "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
+    "rec": {
+      "ex": "5",
+      "normal": "7",
+      "passive": "M",
+      "sub": "5"
+    },
+    "limited": true,
+    "dist": false,
+    "isNew": true,
+    "tip": "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
+    "tips": null,
+    "rating": null
+  },
+  {
+    "id": 20063,
+    "name": "아즈사(레이싱)",
+    "school": "트리니티",
+    "rarity": 3,
+    "atk": "explosion",
+    "atkLabel": "폭발",
+    "armor": "특수장갑",
+    "role": "서포터",
+    "position": "후열",
+    "squad": "스페셜",
+    "img": "https://schaledb.com/images/student/collection/20063.webp",
+    "icon": "https://schaledb.com/images/student/icon/20063.webp",
+    "ex": {
+      "name": "Macte Virtute",
+      "desc": "아즈사(레이싱)이 등장하여 아군을 응원(45초간)/ 자신의 CostRegen 519 → 986 증가(25초간)/ 원형범위 내의 아군에게 치유력 22.4% → 42.5% 회복",
+      "cost": 4
+    },
+    "normal": {
+      "name": "Fortiter",
+      "desc": "30초마다 스트라이커 딜러 아군의 치명 발생치 9.9% → 18.9% 증가(25초간)"
+    },
+    "passive": {
+      "name": "쓰담쓰담",
+      "desc": "회복력 14% → 26.6% 증가"
+    },
+    "sub": {
+      "name": "훈련받은대로",
+      "desc": "아군의 EnhanceExplosionRate 15.9% → 30.2% 가산"
+    },
+    "order": [
+      "EX",
+      "기본",
+      "강화",
+      "서브"
+    ],
+    "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
+    "rec": {
+      "ex": "5",
+      "normal": "M",
+      "passive": "7",
+      "sub": "5"
+    },
+    "limited": true,
+    "dist": false,
+    "isNew": true,
+    "tip": "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
+    "tips": null,
+    "rating": null
+  },
+  {
+    "id": 26017,
+    "name": "라나",
+    "school": "붉은겨울",
+    "rarity": 1,
+    "atk": "explosion",
+    "atkLabel": "폭발",
+    "armor": "특수장갑",
+    "role": "차량",
+    "position": "후열",
+    "squad": "스페셜",
+    "img": "https://schaledb.com/images/student/collection/26017.webp",
+    "icon": "https://schaledb.com/images/student/icon/26017.webp",
+    "ex": {
+      "name": "IPoAC 스푸핑",
+      "desc": "적 1인에게 공격력 145% → 407% 대미지/ 강아지호가 전투에 등장한 동안 '1바이트 버스트'로 스킬 변경",
+      "cost": 5
+    },
+    "normal": {
+      "name": "워치독 타이머",
+      "desc": "전투 시작 시, 이후 60초마다 강아지호 소환, 라나 공격력의 9.4% → 17.9%를 강아지호가 추가로 가집니다.(50초간)/ (강아지호의 일반 공격은 지정한 대상을 중심으로 원형범위 내의 적에게 공격력 100% 대미지, 대상 주변에 다른 적이 있을 경우 최대 1인에게 공격력 50% 대미지) (택티컬 서포트의 탑승물은 중복 등장하지 않습니다.)"
+    },
+    "passive": {
+      "name": "오버클럭",
+      "desc": "ATK 14% → 26.6% 증가"
+    },
+    "sub": {
+      "name": "멀티캐스트",
+      "desc": "아군의 ATK 9.1% → 17.3% 증가"
+    },
+    "order": [
+      "EX",
+      "강화",
+      "기본",
+      "서브"
+    ],
+    "note": "EX 화력 위주 — 활용 빈도에 따라 나머지 스킬 투자",
+    "rec": {
+      "ex": "5",
+      "normal": "7",
+      "passive": "M",
+      "sub": "5"
+    },
+    "limited": false,
+    "dist": true,
+    "isNew": true,
+    "tip": "이벤트 배포 학생 — 모집(뽑기)으로는 얻을 수 없고 이벤트·상점에서 획득합니다.",
     "tips": null,
     "rating": null
   }
