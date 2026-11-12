@@ -13531,7 +13531,7 @@ const STUDENTS = [
     "icon": "https://schaledb.com/images/student/icon/10140.webp",
     "ex": {
       "name": "전술 방패 전개",
-      "desc": "즉시 재장전/ 치유력 226% → 430% TacticalShield(10초간), TacticalShield이 유지되는 동안 전술 방어 상태에 돌입 (TacticalShield: 종료 시 잔여량의 50%만큼 체력을 회복하는 Shield. 보유 중 다른 Shield 적용 시 치유력의 100% TacticalShield 회복으로 대체)",
+      "desc": "즉시 재장전/ 치유력 226% → 430% TacticalShield(10초간), TacticalShield이 유지되는 동안 전술 방어 상태에 돌입 (TacticalShield: 종료 시 잔여량의 50%만큼 체력을 회복하는 보호막. 보유 중 다른 Shield 적용 시 치유력의 100% TacticalShield 회복으로 대체)",
       "cost": 3
     },
     "normal": {
@@ -14536,7 +14536,7 @@ const STUDENTS = [
     },
     "normal": {
       "name": "2 파운더 철갑탄 장전!",
-      "desc": "32초 마다 적 1인에게 공격력 223% → 425% 대미지/ 대상이 경장갑인 경우 공격 전 받는 특효 대미지량 8.3% → 15.8% 가산(30초간)"
+      "desc": "32초 마다 적 1인에게 공격력 223% → 425% 대미지/ 대상이 경장갑인 경우 공격 전 8.3% → 15.8% 가산(30초간)"
     },
     "passive": {
       "name": "레이서의 근성",
@@ -14561,7 +14561,7 @@ const STUDENTS = [
     },
     "limited": true,
     "dist": false,
-    "isNew": true,
+    "isNew": false,
     "tip": "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
     "tips": null,
     "rating": null
@@ -14611,7 +14611,7 @@ const STUDENTS = [
     },
     "limited": true,
     "dist": false,
-    "isNew": true,
+    "isNew": false,
     "tip": "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
     "tips": null,
     "rating": null
@@ -14661,7 +14661,7 @@ const STUDENTS = [
     },
     "limited": false,
     "dist": true,
-    "isNew": true,
+    "isNew": false,
     "tip": "이벤트 배포 학생 — 모집(뽑기)으로는 얻을 수 없고 이벤트·상점에서 획득합니다.",
     "tips": null,
     "rating": null
