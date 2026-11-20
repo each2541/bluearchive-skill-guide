@@ -210,11 +210,21 @@ function Match-Entry($sname){
   return $best
 }
 
-# 신규(NEW) 판별: 이전 실행에서 본 ID와 비교 (최초 실행은 전부 기존으로 간주 → NEW 표시 안 함)
+# 신규(NEW) 판별: known_ids.json = { "학생ID": "처음 본 날짜" }.
+# 처음 본 지 7일 이내면 NEW → 같은 주에 수동으로 다시 돌려도 배지가 사라지지 않음.
+# (예전 형식인 ID 배열이면 전부 오래전에 본 것으로 간주. 최초 실행도 NEW 없음)
 $knownPath  = Join-Path $dir 'known_ids.json'
 $currentIds = @($released | ForEach-Object { [int]$_.Id })
-$known      = if(Test-Path $knownPath){ @((Get-Content $knownPath -Raw -Encoding UTF8 | ConvertFrom-Json)) } else { $currentIds }
-$newIds     = @($currentIds | Where-Object { $known -notcontains $_ })
+$todayStr   = (Get-Date).ToUniversalTime().ToString('yyyy-MM-dd')
+$firstSeen  = [ordered]@{}
+if(Test-Path $knownPath){
+  $kj = Get-Content $knownPath -Raw -Encoding UTF8 | ConvertFrom-Json
+  if($kj -is [array]){ foreach($i in $kj){ $firstSeen["$i"] = '2000-01-01' } }
+  else { foreach($p in $kj.PSObject.Properties){ $firstSeen[$p.Name] = [string]$p.Value } }
+} else { foreach($i in $currentIds){ $firstSeen["$i"] = '2000-01-01' } }
+foreach($i in $currentIds){ if(-not $firstSeen.Contains("$i")){ $firstSeen["$i"] = $todayStr } }
+$newCutoff  = (Get-Date).ToUniversalTime().AddDays(-7).ToString('yyyy-MM-dd')
+$newIds     = @($currentIds | Where-Object { $firstSeen["$_"] -gt $newCutoff })
 
 $students = foreach($s in $released){
   $roleRaw = [string]$s.TacticRole
@@ -258,7 +268,8 @@ $content = "/* 자동 생성 데이터 — SchaleDB(schaledb.com) 한국 서버 
 $enc = New-Object System.Text.UTF8Encoding($false)
 [System.IO.File]::WriteAllText((Join-Path $dir 'data.js'), $content, $enc)
 # 신규 추적 파일 갱신 (다음 실행 때 비교 기준)
-$merged = @(($known + $currentIds) | Sort-Object -Unique)
-[System.IO.File]::WriteAllText($knownPath, ($merged | ConvertTo-Json -Compress), $enc)
+$sorted = [ordered]@{}
+foreach($k in ($firstSeen.Keys | Sort-Object { [int]$_ })){ $sorted[$k] = $firstSeen[$k] }
+[System.IO.File]::WriteAllText($knownPath, ($sorted | ConvertTo-Json -Compress), $enc)
 if($newIds.Count){ Write-Host ("신규 학생 $($newIds.Count)명: " + (($students | Where-Object { $_.isNew } | ForEach-Object { $_.name }) -join ', ')) }
 "생성 완료: data.js ($($students.Count)명)"
