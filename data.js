@@ -13347,24 +13347,27 @@ const STUDENTS = [
       "desc": "EX 스킬 사용 중 ATK, DEF 13.1% → 24.9% 증가/ EX 스킬 사용 상태를 유지한 채로 회복 효과를 25회 받을 경우, 자신의 CostChange 1 → 2 감소(EX 스킬 사용 1회까지)"
     },
     "order": [
-      "강화",
       "EX",
       "기본",
-      "서브"
+      "서브",
+      "강화"
     ],
     "note": "생존이 핵심 — 강화 패시브(생존/방어)를 우선, 그 다음 EX",
     "rec": {
       "ex": "5",
-      "normal": "7",
+      "normal": "M",
       "passive": "M",
-      "sub": "5"
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
     "isNew": false,
     "tip": "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
-    "tips": null,
-    "rating": null
+    "tips": [
+      "3스 10렙 코스트 감소량 1->2 증가",
+      "한 달 기다려서 쿠루미 뽑자"
+    ],
+    "rating": "♥♥"
   },
   {
     "id": 10138,
@@ -13398,23 +13401,25 @@ const STUDENTS = [
     },
     "order": [
       "EX",
+      "서브",
       "기본",
-      "강화",
-      "서브"
+      "강화"
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
       "ex": "5",
       "normal": "M",
       "passive": "7",
-      "sub": "5"
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
     "isNew": false,
     "tip": "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
-    "tips": null,
-    "rating": null
+    "tips": [
+      "드럼통 게 루나틱 따개(필수 아님)"
+    ],
+    "rating": "♥♥♥"
   },
   {
     "id": 20057,
@@ -13448,23 +13453,25 @@ const STUDENTS = [
     },
     "order": [
       "EX",
-      "강화",
+      "서브",
       "기본",
-      "서브"
+      "강화"
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
       "ex": "5",
-      "normal": "7",
+      "normal": "M",
       "passive": "M",
-      "sub": "5"
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
     "isNew": false,
     "tip": "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
-    "tips": null,
-    "rating": null
+    "tips": [
+      "전무 2 공격력 증가"
+    ],
+    "rating": "♥♥♡"
   },
   {
     "id": 10139,
@@ -13498,23 +13505,27 @@ const STUDENTS = [
     },
     "order": [
       "EX",
+      "서브",
       "기본",
-      "강화",
-      "서브"
+      "강화"
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
       "ex": "5",
       "normal": "M",
-      "passive": "7",
-      "sub": "5"
+      "passive": "M",
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
     "isNew": false,
     "tip": "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
-    "tips": null,
-    "rating": null
+    "tips": [
+      "한정",
+      "전무 2 버프 지속 시간 증가(4성 쌀먹 가능)",
+      "조각작 가능 예정, 뽑기 불가(숙련증서 상점)"
+    ],
+    "rating": "♥♥♥♥"
   },
   {
     "id": 10140,
@@ -13547,24 +13558,28 @@ const STUDENTS = [
       "desc": "CostRegen 96 → 183 증가, TacticalShield 보유 중 추가로 450 → 854 증가/ TacticalShield이 5초 이상 유지되었을 경우, 해당 TacticalShield이 종료될 때 스트라이커 아군에게 ATK 20% → 33.6% 증가(35초간)"
     },
     "order": [
-      "강화",
       "EX",
+      "서브",
       "기본",
-      "서브"
+      "강화"
     ],
     "note": "생존이 핵심 — 강화 패시브(생존/방어)를 우선, 그 다음 EX",
     "rec": {
       "ex": "5",
-      "normal": "7",
+      "normal": "M",
       "passive": "M",
-      "sub": "5"
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
     "isNew": false,
     "tip": "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
-    "tips": null,
-    "rating": null
+    "tips": [
+      "한정",
+      "전무 2 최대체력 증가(루나틱 전1~2 이상)",
+      "조각작 가능 예정, 뽑기 불가(숙련증서 상점)"
+    ],
+    "rating": "♥♥♥♥♡"
   },
   {
     "id": 16020,
@@ -13598,23 +13613,26 @@ const STUDENTS = [
     },
     "order": [
       "EX",
-      "강화",
+      "서브",
       "기본",
-      "서브"
+      "강화"
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
       "ex": "5",
-      "normal": "7",
+      "normal": "M",
       "passive": "M",
-      "sub": "5"
+      "sub": "M"
     },
     "limited": false,
     "dist": true,
     "isNew": false,
     "tip": "이벤트 배포 학생 — 모집(뽑기)으로는 얻을 수 없고 이벤트·상점에서 획득합니다.",
-    "tips": null,
-    "rating": null
+    "tips": [
+      "전무 2 공격력 증가",
+      "이벤트 배포 한정, 조각작 가능예정(숙련증서 상점)"
+    ],
+    "rating": "♥♥♥"
   },
   {
     "id": 20058,
@@ -13648,23 +13666,26 @@ const STUDENTS = [
     },
     "order": [
       "EX",
+      "서브",
       "기본",
-      "강화",
-      "서브"
+      "강화"
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
       "ex": "5",
       "normal": "M",
       "passive": "7",
-      "sub": "5"
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
     "isNew": false,
     "tip": "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
-    "tips": null,
-    "rating": null
+    "tips": [
+      "EX 3레벨, 5레벨에서 해로운 효과 제거 개수 증가",
+      "드럼통 게 루나틱 필수급"
+    ],
+    "rating": "♥♥♥♡"
   },
   {
     "id": 10141,
@@ -13698,23 +13719,26 @@ const STUDENTS = [
     },
     "order": [
       "EX",
-      "강화",
+      "서브",
       "기본",
-      "서브"
+      "강화"
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
       "ex": "5",
-      "normal": "7",
+      "normal": "M",
       "passive": "M",
-      "sub": "5"
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
     "isNew": false,
     "tip": "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
-    "tips": null,
-    "rating": null
+    "tips": [
+      "전무 2 치명데미지 증가",
+      "드럼통 게 루나틱 따개(전무 4 필수)"
+    ],
+    "rating": "♥♥♥♡"
   },
   {
     "id": 20059,
@@ -13748,23 +13772,24 @@ const STUDENTS = [
     },
     "order": [
       "EX",
-      "강화",
-      "기본",
-      "서브"
+      "서브",
+      "강화"
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
       "ex": "5",
-      "normal": "7",
+      "normal": "M",
       "passive": "M",
-      "sub": "5"
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
     "isNew": false,
     "tip": "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
-    "tips": null,
-    "rating": null
+    "tips": [
+      "전무 2 방어관통 증가"
+    ],
+    "rating": "♥♥♡"
   },
   {
     "id": 10142,
@@ -13798,23 +13823,25 @@ const STUDENTS = [
     },
     "order": [
       "EX",
-      "기본",
+      "서브",
       "강화",
-      "서브"
+      "기본"
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
       "ex": "5",
       "normal": "M",
-      "passive": "7",
-      "sub": "5"
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
     "isNew": false,
     "tip": "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
-    "tips": null,
-    "rating": null
+    "tips": [
+      "전무 2 버프 지속 시간 증가"
+    ],
+    "rating": "♥♥♥♡"
   },
   {
     "id": 10143,
@@ -13848,23 +13875,26 @@ const STUDENTS = [
     },
     "order": [
       "EX",
-      "강화",
       "기본",
-      "서브"
+      "서브",
+      "강화"
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
       "ex": "5",
-      "normal": "7",
+      "normal": "M",
       "passive": "M",
-      "sub": "5"
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
     "isNew": false,
     "tip": "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
-    "tips": null,
-    "rating": null
+    "tips": [
+      "슈에링 버전은 원본 슌처럼 코스트펌핑용",
+      "전무 2 슌 진동 특효 가산 / 슈에링 공격력 증가"
+    ],
+    "rating": "♥♥♥♡"
   },
   {
     "id": 10144,
@@ -13898,23 +13928,26 @@ const STUDENTS = [
     },
     "order": [
       "EX",
-      "강화",
       "기본",
-      "서브"
+      "서브",
+      "강화"
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
       "ex": "5",
-      "normal": "7",
+      "normal": "M",
       "passive": "M",
-      "sub": "5"
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
     "isNew": false,
     "tip": "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
-    "tips": null,
-    "rating": null
+    "tips": [
+      "슈에링 버전은 원본 슌처럼 코스트펌핑용",
+      "전무 2 슌 진동 특효 가산 / 슈에링 공격력 증가"
+    ],
+    "rating": "♥♥♥♡"
   },
   {
     "id": 10145,
@@ -13948,23 +13981,25 @@ const STUDENTS = [
     },
     "order": [
       "EX",
-      "기본",
       "강화",
-      "서브"
+      "서브",
+      "기본"
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
       "ex": "5",
-      "normal": "M",
-      "passive": "7",
-      "sub": "5"
+      "normal": "7",
+      "passive": "M",
+      "sub": "M"
     },
     "limited": false,
     "dist": false,
     "isNew": false,
     "tip": "상시 모집 ★3 — 픽업 기간에 효율적으로 노릴 수 있어요. 무돌로도 활용 가능, 여유되면 풀돌(전용무기·성장) 추천.",
-    "tips": null,
-    "rating": null
+    "tips": [
+      "전무 2 버프 지속 시간 증가"
+    ],
+    "rating": "♥♥♥♥"
   },
   {
     "id": 10146,
@@ -13998,23 +14033,28 @@ const STUDENTS = [
     },
     "order": [
       "EX",
-      "강화",
       "기본",
-      "서브"
+      "서브",
+      "강화"
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
       "ex": "5",
-      "normal": "7",
+      "normal": "M",
       "passive": "M",
-      "sub": "5"
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
     "isNew": false,
     "tip": "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
-    "tips": null,
-    "rating": null
+    "tips": [
+      "한정",
+      "전무 2 신비 특효 가산",
+      "실내 페로로지라 따개",
+      "조각작 가능예정, 뽑기 불가(숙련증서 상점)"
+    ],
+    "rating": "♥♥♥"
   },
   {
     "id": 10147,
@@ -14049,22 +14089,26 @@ const STUDENTS = [
     "order": [
       "EX",
       "기본",
-      "강화",
-      "서브"
+      "서브",
+      "강화"
     ],
     "note": "회복량 직결 — EX를 최우선으로, 이후 일반/패시브 M",
     "rec": {
       "ex": "5",
       "normal": "M",
-      "passive": "7",
-      "sub": "5"
+      "passive": "M",
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
     "isNew": false,
     "tip": "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
-    "tips": null,
-    "rating": null
+    "tips": [
+      "한정",
+      "시가지 예로니무스 고점용(토먼트 전1 이상 권장)",
+      "조각작 가능예정, 뽑기 불가(숙련증서 상점)"
+    ],
+    "rating": "♥♥♥♥"
   },
   {
     "id": 26016,
@@ -14098,23 +14142,27 @@ const STUDENTS = [
     },
     "order": [
       "EX",
+      "서브",
       "강화",
-      "기본",
-      "서브"
+      "기본"
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
       "ex": "5",
       "normal": "7",
-      "passive": "M",
-      "sub": "5"
+      "passive": "7",
+      "sub": "M"
     },
     "limited": false,
     "dist": true,
     "isNew": false,
     "tip": "이벤트 배포 학생 — 모집(뽑기)으로는 얻을 수 없고 이벤트·상점에서 획득합니다.",
-    "tips": null,
-    "rating": null
+    "tips": [
+      "이벤트 배포 한정",
+      "전무 2 관통 특효 가산",
+      "상설화 이후 조각작 가능예정, 뽑기 불가(숙련증서 상점)"
+    ],
+    "rating": "♥♥♡"
   },
   {
     "id": 10148,
@@ -14148,23 +14196,27 @@ const STUDENTS = [
     },
     "order": [
       "EX",
+      "서브",
       "강화",
-      "기본",
-      "서브"
+      "기본"
     ],
     "note": "주력 화력 — EX와 강화 패시브를 먼저 M까지 올리는 것을 권장",
     "rec": {
       "ex": "5",
-      "normal": "7",
+      "normal": "M",
       "passive": "M",
-      "sub": "5"
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
-    "isNew": true,
+    "isNew": false,
     "tip": "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
-    "tips": null,
-    "rating": null
+    "tips": [
+      "페스 한정(무조건 뽑기)",
+      "전무 2 폭발 특효",
+      "조각작 가능예정, 뽑기 불가(숙련증서 상점)"
+    ],
+    "rating": "♥♥♥♥♥"
   },
   {
     "id": 20060,
@@ -14198,22 +14250,26 @@ const STUDENTS = [
     },
     "order": [
       "EX",
+      "서브",
       "기본",
-      "강화",
-      "서브"
+      "강화"
     ],
     "note": "버프/디버프 효율 — EX 우선, 활용도 따라 일반·패시브 M",
     "rec": {
       "ex": "5",
       "normal": "M",
-      "passive": "7",
-      "sub": "5"
+      "passive": "M",
+      "sub": "M"
     },
     "limited": true,
     "dist": false,
-    "isNew": true,
+    "isNew": false,
     "tip": "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
-    "tips": null,
-    "rating": null
+    "tips": [
+      "페스 한정(반드시 뽑기)",
+      "전무 2 버프 지속 시간 증가",
+      "조각작 가능예정, 뽑기 불가(숙련증서 상점)"
+    ],
+    "rating": "♥♥♥♥♥"
   }
 ];
