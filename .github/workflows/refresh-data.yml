@@ -1,7 +1,7 @@
 name: Refresh student data
 
 # 매주 1회 SchaleDB에서 최신 학생 데이터를 받아 data.js를 재생성하고,
-# 변경이 있으면 자동 커밋·푸시 → Cloudflare Pages가 자동 재배포.
+# 변경이 있으면 자동 커밋·푸시 → GitHub Pages가 자동 재배포.
 on:
   schedule:
     - cron: '23 2 * * 4'   # 매주 목요일 02:23 UTC (KR 목 11:23) — KR 수요일 점검 이후

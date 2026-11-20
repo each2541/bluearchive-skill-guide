@@ -9,7 +9,17 @@ catch { Write-Host "students 다운로드 실패, 기존 파일 사용: $($_.Exc
 $raw = (Get-Content $studentsFile -Raw -Encoding UTF8) -replace '"BirthDay":', '"BirthDayX":'
 $json = $raw | ConvertFrom-Json
 $all = $json.PSObject.Properties.Name | ForEach-Object { $json.$_ }
-$released = $all | Where-Object { $_.IsReleased[0] -eq $true } | Sort-Object DefaultOrder
+# 출시 판별: IsReleased는 [일본, 글로벌(한국 포함), 중국] 순서 → 한국 서버는 [1].
+# SchaleDB가 신규 학생의 글로벌 출시 플래그를 늦게 켜는 경우가 있어,
+# 글로벌 서버의 진행 중/지난 모집(CurrentGacha)에 올라온 학생도 출시로 간주한다.
+$gachaIds = @()
+try {
+  $cfg = Invoke-RestMethod -Uri "https://schaledb.com/data/config.min.json" -UseBasicParsing
+  $now = [DateTimeOffset]::UtcNow.ToUnixTimeSeconds()
+  $gl  = $cfg.Regions | Where-Object { $_.Name -eq 'Global' }
+  $gachaIds = @($gl.CurrentGacha | Where-Object { $_.start -le $now } | ForEach-Object { $_.characters } | ForEach-Object { [int]$_ })
+} catch { Write-Host "config 다운로드 실패, 모집 정보 없이 진행: $($_.Exception.Message)" }
+$released = $all | Where-Object { $_.IsReleased[1] -eq $true -or $gachaIds -contains [int]$_.Id } | Sort-Object DefaultOrder
 
 # 같은 이름 학생 중복 제거 — 호시노(무장)은 탱커(10098)/딜러(10099) 두 ID로 제공되어 카드가 2개 뜸.
 # DefaultOrder가 앞서는 첫 항목(탱커)만 남긴다.
