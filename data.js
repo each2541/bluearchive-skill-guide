@@ -14209,7 +14209,7 @@ const STUDENTS = [
     },
     "limited": true,
     "dist": false,
-    "isNew": false,
+    "isNew": true,
     "tip": "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
     "tips": [
       "페스 한정(무조건 뽑기)",
@@ -14263,7 +14263,7 @@ const STUDENTS = [
     },
     "limited": true,
     "dist": false,
-    "isNew": false,
+    "isNew": true,
     "tip": "한정 모집 학생 — 상시 모집에 없고 복각 주기가 길어요. 필요하면 픽업 기간에 확보를 강력 권장!",
     "tips": [
       "페스 한정(반드시 뽑기)",
